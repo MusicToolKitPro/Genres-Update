@@ -1,0 +1,148 @@
+{
+  "app_name": "MusicToolkit Pro",
+  "package_version": "1.47.0",
+  "manifest_version": 2,
+  "generated_at": "2026-09-18T10:28:30.224140",
+  "author": "MusicToolkit Team",
+  "description": "Genre database and resource update package for MusicToolkit Pro",
+  "database": {
+    "format": "json+bin",
+    "total_genres": 215,
+    "bar_common_genres": 203,
+    "parent_categories": {
+      "house": 35,
+      "urban": 26,
+      "techno": 16,
+      "hardcore_rave": 14,
+      "trance": 12,
+      "ambient_chill": 12,
+      "internet_modern": 11,
+      "retro_electro_80s": 10,
+      "bounce": 9,
+      "global_club": 9,
+      "bass_music": 8,
+      "drum_and_bass": 8,
+      "breakbeat": 5,
+      "retro": 5,
+      "other": 5,
+      "hardstyle": 4,
+      "industrial_ebm": 4,
+      "pop": 3,
+      "pop_electronic": 2,
+      "rock": 2,
+      "rnb_soul": 2,
+      "hip_hop": 2,
+      "cn_edm": 1,
+      "african_club": 1,
+      "uk_garage": 1,
+      "latin_club": 1,
+      "trap": 1,
+      "folk": 1,
+      "thai_club": 1,
+      "party": 1,
+      "electro_house": 1,
+      "electro": 1,
+      "edm": 1
+    },
+    "data_file": "data.json",
+    "binary_file": "database.bin",
+    "data_md5": "1a7005aa29e03c7b26389ec96320dc0d",
+    "data_sha256": "281e24cbb4255772d2d2b29a48468001ec314c6d74f6eb459008b93adb97e8f5",
+    "binary_md5": "81dda056be775d5e6a0480b4060d9dc6",
+    "binary_sha256": "c933f42fae5f3a0c42b5cc6dda15f2568e493fb155e923d967e58138d5b0c232"
+  },
+  "resources": [
+    {
+      "path": "assets/intro_video.mp4",
+      "size": 1622643,
+      "md5": "9a469251bbf4a893b8aaca30041f9e09",
+      "type": "asset"
+    },
+    {
+      "path": "assets/logo.png",
+      "size": 4561655,
+      "md5": "dcecb2a415747425519f3f60cef79feb",
+      "type": "asset"
+    },
+    {
+      "path": "scripts/analyze_music.py",
+      "size": 45676,
+      "md5": "06118c8edf71c93cdbcd8052a193a2ba",
+      "type": "script"
+    },
+    {
+      "path": "scripts/analyze_panns.py",
+      "size": 21308,
+      "md5": "023fe7752288bd37922b080eddc83fab",
+      "type": "script"
+    },
+    {
+      "path": "scripts/bpm_detector_pro.py",
+      "size": 13943,
+      "md5": "dcbcdc044260fde2d91bf0c88c517b5c",
+      "type": "script"
+    },
+    {
+      "path": "scripts/genre_score_engine.py",
+      "size": 11521,
+      "md5": "a0e9f9fe98ba464b1b327dc738435508",
+      "type": "script"
+    },
+    {
+      "path": "scripts/filename_genre_parser.py",
+      "size": 9981,
+      "md5": "ab959ac92c526ea556a0a0b8ac245984",
+      "type": "script"
+    },
+    {
+      "path": "scripts/network_updater.py",
+      "size": 10140,
+      "md5": "46f8b87ea221f0c62bda2680d2cfaa63",
+      "type": "script"
+    },
+    {
+      "path": "scripts/smart_dedup.py",
+      "size": 14108,
+      "md5": "37ec1ba67a5318492f8c86c5e0d64b02",
+      "type": "script"
+    },
+    {
+      "path": "scripts/convert_audio.py",
+      "size": 2414,
+      "md5": "2a8a5e74aaa2131d49b1bb534679e895",
+      "type": "script"
+    },
+    {
+      "path": "scripts/enhance_audio.py",
+      "size": 2707,
+      "md5": "e37d19f2b134837b60f839dad390b4f3",
+      "type": "script"
+    }
+  ],
+  "update_instructions": {
+    "type": "full_replace",
+    "target_files": [
+      "scripts/genres.json"
+    ],
+    "backup_required": true,
+    "restart_required": true
+  },
+  "security": {
+    "signature_required": false,
+    "checksum_verification": true,
+    "allowed_sources": [
+      "raw.githubusercontent.com",
+      "gist.githubusercontent.com",
+      "cdn.jsdelivr.net"
+    ]
+  },
+  "compatibility": {
+    "min_app_version": "1.40.0",
+    "max_app_version": "1.99.99",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ]
+  }
+}
