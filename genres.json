@@ -7496,5 +7496,184 @@
     ],
     "confidence_weight": 0.75,
     "style_id": 9007
+  },
+  {
+    "type_id": 6,
+    "style_cn": "VIP混音版",
+    "style_en": "VIP Mix",
+    "category": "WorkType",
+    "description": "原曲制作人本人重新制作的改版，一般用于现场DJ演出，非第三方Remix。通常强化Drop，修改编曲，保留原曲核心。",
+    "audio_feature": "BPM基本与原版一致；制作人原版音色体系，改动幅度大于普通Edit，小于完全Remix；动态压缩更强适合夜店播放。",
+    "scene": "DJ现场专属版本",
+    "detection_key": "原曲主体音色，鼓组重制，BPM基本不变；人声保留或轻微修改，不是第三方编曲风格",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "vip",
+      "vip_mix",
+      "work_type"
+    ],
+    "confidence_weight": 0.85,
+    "style_id": 9008
+  },
+  {
+    "type_id": 7,
+    "style_cn": "纯伴奏版",
+    "style_en": "Instrumental",
+    "category": "WorkType",
+    "description": "无人声版本，只保留乐器、鼓组、旋律伴奏轨道。",
+    "audio_feature": "音频中无人类人声频谱；BPM、编曲结构和原版一致；低频/乐器轨道完整。",
+    "scene": "DJ用来做Mashup、现场叠人声",
+    "detection_key": "全段无vocal人声特征；旋律鼓组与原版一致",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "instrumental",
+      "no_vocal",
+      "work_type"
+    ],
+    "confidence_weight": 0.9,
+    "style_id": 9009
+  },
+  {
+    "type_id": 8,
+    "style_cn": "人声干声版",
+    "style_en": "Acapella",
+    "category": "WorkType",
+    "description": "剥离所有乐器伴奏，只保留歌手人声（包含和声）。",
+    "audio_feature": "几乎无低频鼓组、伴奏乐器；只有人声频谱；BPM隐含在人声节奏，无底鼓。",
+    "scene": "DJ现场叠伴奏做Mashup",
+    "detection_key": "几乎没有低频打击乐器；音频主要能量集中于人声频段 200~4kHz",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "acapella",
+      "vocal_only",
+      "work_type"
+    ],
+    "confidence_weight": 0.95,
+    "style_id": 9010
+  },
+  {
+    "type_id": 9,
+    "style_cn": "Dub混音版",
+    "style_en": "Dub Mix",
+    "category": "WorkType",
+    "description": "源自Dub，大量删减人声，增加延时、混响效果，侧重贝斯与鼓组律动。",
+    "audio_feature": "人声极少、碎片化；大量delay/reverb效果；贝斯线条突出；BPM稳定。",
+    "scene": "Deep House / Techno常用版本",
+    "detection_key": "人声零星片段，长延时混响，贝斯主导",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "dub",
+      "dub_mix",
+      "work_type"
+    ],
+    "confidence_weight": 0.8,
+    "style_id": 9011
+  },
+  {
+    "type_id": 10,
+    "style_cn": "电台剪辑版",
+    "style_en": "Radio Edit",
+    "category": "WorkType",
+    "description": "适配电台播放，缩短时长，去掉长前奏尾奏，一般3~4分钟，编曲不变。",
+    "audio_feature": "BPM、编曲音色完全同原版；删减前奏、间奏，时长更短；无长铺垫Drop。",
+    "scene": "流媒体、电台播放",
+    "detection_key": "编曲和原版一致，歌曲总时长较短",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "radio",
+      "radio_edit",
+      "work_type"
+    ],
+    "confidence_weight": 0.85,
+    "style_id": 9012
+  },
+  {
+    "type_id": 12,
+    "style_cn": "重制改编版",
+    "style_en": "Rework",
+    "category": "WorkType",
+    "description": "介于Edit和Remix之间，对原曲部分段落重制，保留大部分编曲，改动小于Remix。",
+    "audio_feature": "主体旋律保留；局部段落（Drop/贝斯）重新制作；整体BPM不变居多。",
+    "scene": "介于Edit与Remix中间类型",
+    "detection_key": "大部分编曲和原版一致，局部段落音色改动，不是全部重编",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "rework",
+      "work_type"
+    ],
+    "confidence_weight": 0.8,
+    "style_id": 9013
+  },
+  {
+    "type_id": 13,
+    "style_cn": "二次剪辑版",
+    "style_en": "Re-Edit",
+    "category": "WorkType",
+    "description": "DJ对原版音频做裁剪、循环段落，不重新制作音色，只修改音频结构。",
+    "audio_feature": "音色、鼓组全部保留原版；只是重复段落、裁剪；BPM不变。",
+    "scene": "DJ自制剪辑，不改动音色",
+    "detection_key": "音频音色完全原版，只是段落重复、裁切，无新编曲音色",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "re_edit",
+      "reedit",
+      "work_type"
+    ],
+    "confidence_weight": 0.85,
+    "style_id": 9014
+  },
+  {
+    "type_id": 14,
+    "style_cn": "重构混音版",
+    "style_en": "Reconstruction Mix",
+    "category": "WorkType",
+    "description": "拆解原曲所有轨道，重新编排，大量重组段落，接近Remix，但素材全部来自原曲。",
+    "audio_feature": "素材源自原曲切片，但段落顺序、编排完全重组；BPM可不变或微调。",
+    "scene": "地下电子乐常用",
+    "detection_key": "全部素材来自原曲切片，但是歌曲结构完全打乱重组",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "reconstruction",
+      "reconstruction_mix",
+      "work_type"
+    ],
+    "confidence_weight": 0.75,
+    "style_id": 9015
+  },
+  {
+    "type_id": 15,
+    "style_cn": "俱乐部混音版",
+    "style_en": "Club Mix",
+    "category": "WorkType",
+    "description": "专门为夜店场景制作版本，强化低频底鼓，加长铺垫，适合舞池。",
+    "audio_feature": "低频增益更大；前奏尾奏加长；动态压缩更强；BPM稳定。",
+    "scene": "酒吧夜店专用版本",
+    "detection_key": "低频能量提升，加长鼓组铺垫，编曲主体不变",
+    "bpm_min": 60,
+    "bpm_max": 200,
+    "parent_category": "work_type",
+    "tags": [
+      "club",
+      "club_mix",
+      "work_type"
+    ],
+    "confidence_weight": 0.85,
+    "style_id": 9016
   }
 ]
