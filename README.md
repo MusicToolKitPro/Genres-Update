@@ -1,6 +1,6 @@
 # MusicToolkit Pro - Genre Database (CDN)
 
-**Version**: v10.52
+**Version**: v10.53 (Final Stable)
 **Release Date**: 2026-09-19
 **Total Genres**: 215
 **Total WorkTypes**: 16
@@ -8,56 +8,73 @@
 
 ---
 
-## What's New in v10.52
+## What's New in v10.53 (Final Stable)
 
-### 🆕 New WorkTypes (9 added)
-| # | WorkType | Chinese Name | Detection Keywords |
-|---|----------|-------------|-------------------|
-| 1 | VIP Mix | VIP混音版 | `vip mix` |
-| 2 | Instrumental | 纯伴奏版 | `instrumental` |
-| 3 | Acapella | 人声干声版 | `acapella`, `a cappella` |
-| 4 | Dub Mix | Dub混音版 | `dub mix`, `dub version` |
-| 5 | Radio Edit | 电台剪辑版 | `radio edit`, `radio version` |
-| 6 | Rework | 重制改编版 | `rework` |
-| 7 | Re-Edit | 二次剪辑版 | `re-edit`, `reedit` |
-| 8 | Reconstruction Mix | 重构混音版 | `reconstruction` |
-| 9 | Club Mix | 俱乐部混音版 | `club mix` |
+### 🛡️ Stability & Safety
+- All analysis modules wrapped in try-except for crash safety
+- Boundary clipping: out-of-range segments clamped safely
+- LUFS values clamped to [-90, 0] range, DR to [0, 40] dB
+- Short segments (<2s) return safe defaults to avoid misdetection
+- Zero crash tolerance: analysis never fails the whole app
 
-### 🎛️ New Analysis Modules
-1. **LoudnessAnalyzer (EBU R128 LUFS)**
-   - Integrated loudness measurement per audio segment
-   - Dynamic Range (DR) calculation (peak/RMS ratio)
-   - LUFS genre reference thresholds for accuracy
+### 🎛️ LoudnessAnalyzer (EBU R128 LUFS + DR)
+- **Integrated LUFS** measurement per audio segment
+- **Dynamic Range (DR)** = peak/RMS ratio in dB
+- K-weighting filter (EBU R128 standard)
+- 0.4s block / 0.1s hop window analysis
+- LUFS genre reference thresholds for accuracy
 
-2. **VocalDetector (Vocal Presence Detection)**
-   - 250~4000Hz vocal band energy analysis
-   - Auto-classifies: Acapella / Instrumental / Normal vocal
-   - Low-frequency energy ratio for Acapella vs Instrumental distinction
+### 🎤 VocalDetector (Vocal Presence Detection)
+- 250~4000Hz vocal band energy analysis
+- Auto-classifies: **Acapella** / **Instrumental** / **Normal vocal**
+- Low-frequency energy ratio for distinction
+- Confidence scoring (0-1 scale)
+- Short segment safety: <2s returns neutral result
+
+### 🆕 WorkType Library (16 total)
+| WorkType | Chinese | Detection |
+|----------|---------|-----------|
+| Remix | 重混音 | `remix` |
+| Bootleg | 非官方Remix | `bootleg` |
+| Mashup | 混搭曲 | `mashup` + multi-BPM |
+| Transition | 过渡段 | BPM linear ramp |
+| Edit | 剪辑版 | `edit` |
+| Extended Mix | 加长版 | `extended` |
+| Original Mix | 原版 | `original mix` |
+| VIP Mix | VIP混音版 | `vip mix` |
+| Instrumental | 纯伴奏 | vocal detector |
+| Acapella | 人声干声 | vocal detector |
+| Dub Mix | Dub混音版 | `dub mix` |
+| Radio Edit | 电台版 | `radio edit` |
+| Rework | 重制改编 | `rework` |
+| Re-Edit | 二次剪辑 | `re-edit` |
+| Reconstruction Mix | 重构版 | `reconstruction` |
+| Club Mix | 俱乐部版 | `club mix` |
 
 ### 🎯 Smart WorkType Logic
-- **Acapella** → detected via vocal ratio > 0.65 + low-end < 15% → skips genre scoring
-- **Instrumental** → no vocal + strong low-end > 35% → normal BPM genre scoring
+- **Acapella** → vocal_ratio > 0.65 + low_end < 15% → skips genre scoring
+- **Instrumental** → no vocal + low_end > 35% → normal BPM genre scoring
 - **Extended Mix / Radio Edit** → mutually exclusive
-- **VIP Mix** vs **Remix** vs **Bootleg** → source producer distinction
+- **VIP Mix** vs **Remix** vs **Bootleg** → producer source distinction
 
-### 📊 LUFS Reference Thresholds
-| Genre | LUFS Range | DR Range | Notes |
-|-------|-----------|----------|-------|
-| Hardstyle / Hard Bounce / Bigroom | -7 ~ -10 | 3~6 | Heavy compression, club bangers |
+### 📊 LUFS Reference by Genre
+| Genre | LUFS | DR | Notes |
+|-------|------|----|-------|
+| Hardstyle / Bigroom | -7 ~ -10 | 3~6 | Heavy compression |
 | Vina House / House | -8 ~ -11 | 5~8 | SE Asia club standard |
-| Trance / Progressive | -9 ~ -13 | 6~9 | Melodic, lighter compression |
-| Ballad | -12 ~ -16 | 10~16 | Wide dynamics, vocal focused |
+| Trance / Progressive | -9 ~ -13 | 6~9 | Melodic, lighter |
+| Ballad | -12 ~ -16 | 10~16 | Wide dynamics |
 
 ---
 
 ## CDN URLs (jsDelivr - stable, global)
 
-1. **manifest.json** (software first requests this)
+1. **manifest.json**
    ```
    https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json
    ```
 
-2. **data.json** (genre database)
+2. **data.json**
    ```
    https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/data.json
    ```
@@ -66,10 +83,10 @@
 
 ## Security
 
-- All files include **SHA256 checksums** in `manifest.json`
-- Software verifies SHA256 before applying updates
-- Firewall allows only trusted CDN domains
-- Auto-update runs in background on software startup
+- SHA256 checksums verified on every update
+- Firewall restricts to trusted CDN domains only
+- Auto-update runs in background on startup
+- Backup required before applying updates
 
 ## Verification
 
@@ -81,16 +98,21 @@ python verify_package.py
 
 ## Version History
 
+### v10.53 (2026-09-19) - Final Stable
+- LoudnessAnalyzer + VocalDetector stabilized
+- Boundary protection and exception handling
+- 16 total WorkTypes
+- Zero-crash analysis pipeline
+
 ### v10.52 (2026-09-19)
-- +9 new DJ WorkType versions
-- LUFS loudness + DR dynamic range analysis
-- Vocal detection module (Acapella/Instrumental auto-classify)
-- Per-segment analysis for Mashup multi-BPM files
+- Initial LUFS + DR analysis
+- Vocal detection module
+- 9 new DJ WorkType versions
 
 ### v10.51 (2026-09-19)
 - Audio segment analysis engine
-- WorkType classification (Remix/Mashup/Transition/Edit)
-- Fingerprint matching support (AcoustID/Chromaprint)
+- WorkType classification
+- Fingerprint matching (AcoustID/Chromaprint)
 
 ### v10.50 (2026-09-18)
 - Initial CDN release with 215 genres
@@ -98,4 +120,4 @@ python verify_package.py
 - SHA256 verification
 
 ---
-*Auto-generated by MusicToolkit Pro Release System*
+*MusicToolkit Pro Release System*

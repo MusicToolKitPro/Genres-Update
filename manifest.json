@@ -1,54 +1,19 @@
 {
   "name": "MusicToolkit Pro Genre Database",
-  "version": "v10.52",
+  "version": "v10.53",
   "release_date": "2026-09-19",
-  "timestamp": "20260919_124111",
+  "timestamp": "20260919_124753",
   "total_genres": 215,
   "total_work_types": 16,
   "total_entries": 231,
   "format_version": 3,
-  "min_app_version": "1.52.0",
+  "min_app_version": "1.53.0",
   "checksums": {
     "data_json_md5": "3736873f34824490c89c8511c639d6ad",
     "data_json_sha256": "be9d8e78b3ddda373e65b60b7dbca08ee4c1418415cbe72b8a912535323795c3"
   },
   "file_sizes": {
     "data_json": 248328
-  },
-  "genre_categories": {
-    "house": 35,
-    "urban": 26,
-    "techno": 16,
-    "hardcore_rave": 14,
-    "trance": 12,
-    "ambient_chill": 12,
-    "internet_modern": 11,
-    "retro_electro_80s": 10,
-    "bounce": 9,
-    "global_club": 9,
-    "bass_music": 8,
-    "drum_and_bass": 8,
-    "breakbeat": 5,
-    "retro": 5,
-    "other": 5,
-    "hardstyle": 4,
-    "industrial_ebm": 4,
-    "pop": 3,
-    "pop_electronic": 2,
-    "rock": 2,
-    "rnb_soul": 2,
-    "hip_hop": 2,
-    "cn_edm": 1,
-    "african_club": 1,
-    "uk_garage": 1,
-    "latin_club": 1,
-    "trap": 1,
-    "folk": 1,
-    "thai_club": 1,
-    "party": 1,
-    "electro_house": 1,
-    "electro": 1,
-    "edm": 1
   },
   "work_types_all": [
     "Remix",
@@ -68,32 +33,22 @@
     "Reconstruction Mix",
     "Club Mix"
   ],
-  "new_work_types_v10_52": [
-    "VIP Mix",
-    "Instrumental",
-    "Acapella",
-    "Dub Mix",
-    "Radio Edit",
-    "Rework",
-    "Re-Edit",
-    "Reconstruction Mix",
-    "Club Mix"
+  "new_features_v10_53": [
+    "LUFS loudness analyzer (EBU R128) with boundary protection",
+    "Dynamic Range (DR) calculation per audio segment",
+    "Vocal detector module (250-4000Hz band energy analysis)",
+    "Auto Acapella / Instrumental classification from vocal analysis",
+    "9 new DJ WorkType versions (VIP/Instrumental/Acapella/Dub/Radio/Rework/Re-Edit/Reconstruction/Club)",
+    "Per-segment analysis for Mashup multi-BPM files",
+    "LUFS genre reference thresholds for accuracy improvement",
+    "Enhanced exception handling and boundary clamping"
   ],
-  "new_features_v10_52": [
-    "LUFS integrated loudness measurement (EBU R128)",
-    "Dynamic Range (DR) analysis per segment",
-    "Vocal detection module (Acapella / Instrumental auto-classification)",
-    "9 new DJ WorkType versions added (VIP/Instrumental/Acapella/Dub/Radio/Rework/Re-Edit/Reconstruction/Club)",
-    "Per-segment vocal + loudness analysis for Mashup files",
-    "Vocal-based WorkType override logic (no filename needed)",
-    "LUFS genre reference thresholds for accuracy improvement"
-  ],
-  "improvements_v10_52": [
-    "WorkType recognition now supports 16 version types",
-    "Acapella detection bypasses BPM genre scoring to prevent misclassification",
-    "Instrumental detection uses vocal energy ratio + low-frequency analysis",
-    "Extended Mix / Radio Edit mutual exclusion rule",
-    "VIP Mix vs Remix vs Bootleg source distinction logic"
+  "improvements_v10_53": [
+    "All analysis modules wrapped in try-except for crash safety",
+    "Boundary clipping: segments out of range are clamped safely",
+    "LUFS values clamped to [-90, 0] range, DR to [0, 40] dB",
+    "Short segments (<2s) return safe defaults to avoid misdetection",
+    "Vocal detection uses low-frequency ratio to distinguish Acapella vs Instrumental"
   ],
   "cdn_urls": {
     "manifest": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json",
