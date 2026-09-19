@@ -1,19 +1,19 @@
 {
   "name": "MusicToolkit Pro Genre Database",
-  "version": "v10.53",
+  "version": "v10.54",
   "release_date": "2026-09-19",
-  "timestamp": "20260919_124753",
-  "total_genres": 215,
+  "timestamp": "20260919_145712",
+  "total_genres": 214,
   "total_work_types": 16,
-  "total_entries": 231,
+  "total_entries": 230,
   "format_version": 3,
-  "min_app_version": "1.53.0",
+  "min_app_version": "1.54.0",
   "checksums": {
-    "data_json_md5": "3736873f34824490c89c8511c639d6ad",
-    "data_json_sha256": "be9d8e78b3ddda373e65b60b7dbca08ee4c1418415cbe72b8a912535323795c3"
+    "data_json_md5": "97a878b245a34ddc8b6b24dee657cd93",
+    "data_json_sha256": "b4b30926aa5797acb9631b8a5bea74f27e5e1273b5a38abadac17b5602918eca"
   },
   "file_sizes": {
-    "data_json": 248328
+    "data_json": 246893
   },
   "work_types_all": [
     "Remix",
@@ -33,22 +33,23 @@
     "Reconstruction Mix",
     "Club Mix"
   ],
-  "new_features_v10_53": [
-    "LUFS loudness analyzer (EBU R128) with boundary protection",
-    "Dynamic Range (DR) calculation per audio segment",
-    "Vocal detector module (250-4000Hz band energy analysis)",
-    "Auto Acapella / Instrumental classification from vocal analysis",
-    "9 new DJ WorkType versions (VIP/Instrumental/Acapella/Dub/Radio/Rework/Re-Edit/Reconstruction/Club)",
-    "Per-segment analysis for Mashup multi-BPM files",
-    "LUFS genre reference thresholds for accuracy improvement",
-    "Enhanced exception handling and boundary clamping"
+  "new_features_v10_54": [
+    "DropDetector module: Build-up to Drop explosion detection with confidence score",
+    "TimbreTagger module: BassHeavy / Dark / Bright / Balanced classification",
+    "Per-segment Drop detection time stamp for waveform marking",
+    "Spectral centroid + low-frequency ratio timbre analysis",
+    "All new analysis modules integrated into segment analysis pipeline"
   ],
-  "improvements_v10_53": [
-    "All analysis modules wrapped in try-except for crash safety",
-    "Boundary clipping: segments out of range are clamped safely",
-    "LUFS values clamped to [-90, 0] range, DR to [0, 40] dB",
-    "Short segments (<2s) return safe defaults to avoid misdetection",
-    "Vocal detection uses low-frequency ratio to distinguish Acapella vs Instrumental"
+  "improvements_v10_54": [
+    "CRITICAL FIX: Removed Vina House genre bias - all 214 genres now have equal confidence_weight (0.85)",
+    "Removed duplicate vina_bounce entry to prevent double-voting",
+    "Narrowed Vina House BPM range from 126-145 to 132-142 (more specific)",
+    "Removed confidence_weight x2 multiplier that favored high-weight genres",
+    "Reduced confidence_weight impact in scoring loop (multiplied by 0.5)",
+    "Genre scoring now purely based on audio feature matching, no built-in genre advantage",
+    "Fixed WorkType entries being included in genre scoring (filtered out)",
+    "Drop detection shows as 💥Drop in status column",
+    "Timbre tag shown in right info panel"
   ],
   "cdn_urls": {
     "manifest": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json",

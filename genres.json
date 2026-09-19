@@ -16,7 +16,7 @@
       "squelch",
       "retro rave"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -44,7 +44,7 @@
       "tribal",
       "marimba"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -75,7 +75,7 @@
       "wobble bass",
       "uk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -102,7 +102,7 @@
       "festival",
       "reverb kick"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -134,7 +134,7 @@
       "lofi",
       "distorted"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -161,7 +161,7 @@
       "latin",
       "heavy bass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -190,7 +190,7 @@
       "808",
       "oldschool"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -218,7 +218,7 @@
       "glitch",
       "edm"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -247,7 +247,7 @@
       "subbass",
       "warm pad"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -278,7 +278,7 @@
       "bounce synth",
       "uk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -306,7 +306,7 @@
       "squeaky synth",
       "edm"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -333,7 +333,7 @@
       "syth lead",
       "big drop"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -364,7 +364,7 @@
       "glitch",
       "blog house"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -392,7 +392,7 @@
       "disco sample",
       "sidechain"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -420,7 +420,7 @@
       "slap bass",
       "groovy"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -447,7 +447,7 @@
       "metallic bass",
       "commercial edm"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -477,7 +477,7 @@
       "gangsta",
       "deep bass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -505,7 +505,7 @@
       "soulful",
       "piano"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -533,7 +533,7 @@
       "distorted kick",
       "uk hard house"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -560,7 +560,7 @@
       "piano riff",
       "euro"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -587,7 +587,7 @@
       "funk sample",
       "choppy"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -615,7 +615,7 @@
       "salsa",
       "spanish"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -647,7 +647,7 @@
       "subtle",
       "underground"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -678,7 +678,7 @@
       "hoover",
       "high energy"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -705,7 +705,7 @@
       "retro",
       "funky"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -733,7 +733,7 @@
       "90s",
       "rave piano"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -760,7 +760,7 @@
       "long build",
       "melodic pad"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -791,7 +791,7 @@
       "sax",
       "vocal"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -820,7 +820,7 @@
       "reggae",
       "uk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -848,7 +848,7 @@
       "minimal",
       "clean kick"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -878,7 +878,7 @@
       "percussion",
       "hypnotic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -905,7 +905,7 @@
       "marimba",
       "chill"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -919,8 +919,8 @@
     "style_id": 33,
     "style_cn": "越南鼓 Vina House",
     "style_en": "vina_house",
-    "bpm_min": 126,
-    "bpm_max": 145,
+    "bpm_min": 132,
+    "bpm_max": 142,
     "beat_type": "4/4拍，连续四拍底鼓(four-on-the-floor)，反拍踩镲，2/4拍拍手，侧链压缩泵感",
     "kick_feature": "有力响亮的底鼓，起音快，低频饱满；底鼓与贝斯侧链压缩(sidechain)，产生泵感(pumping)；底鼓响度高，是曲风驱动力；峰值时段BPM接近140时底鼓密度感更强；底鼓干净失真低，与贝斯分离但通过侧链联动",
     "timbre_feature": "标志性弹性Bassline——低沉、清晰、拉锯感强，是Vina House最核心识别音色；明亮锯齿波/方波合成器主旋律，五声音阶；常采样越南传统民谣(如叮当口哨)、宫廷雅乐旋律；Supersaw主音，大空间混响；整体音色明亮、清新、party感强；Sub Bass集中在45-55Hz，深沉有力",
@@ -939,7 +939,7 @@
       "五声音阶",
       "southeast asia"
     ],
-    "confidence_weight": 0.93,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.24,
@@ -1053,7 +1053,7 @@
       "anti beat",
       "catchy melody"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1079,7 +1079,7 @@
       "melbourne bounce",
       "offbeat synth"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1087,36 +1087,6 @@
     "dynamic_profile": null,
     "data_quality": "basic",
     "style_id": 36,
-    "aliases": {}
-  },
-  {
-    "style_cn": "越南弹跳 Vina Bounce",
-    "style_en": "vina_bounce",
-    "bpm_min": 138,
-    "bpm_max": 145,
-    "beat_type": "4/4拍，四拍底鼓，Off-Beat反拍贝斯，反拍踩镲",
-    "kick_feature": "有力响亮的底鼓，起音快，低频饱满；底鼓与Off-Beat贝斯联动；底鼓响度高，是曲风驱动力；BPM接近140时底鼓密度感更强；底鼓干净失真低",
-    "timbre_feature": "Off-Beat反拍Pluck贝斯——明亮、弹跳、节奏感强；明亮锯齿波/方波合成器主旋律；常采样越南流行歌曲人声；Supersaw主音，大空间混响；整体音色明亮、弹跳、party感强；介于Vina House和Melbourne Bounce之间",
-    "rhythm_feature": "四拍稳定律动，Off-Beat反拍贝斯，反拍踩镲；保留Melbourne Bounce的Off-Beat Bass元素但更旋律化；结构为Intro → Build → Drop → Break → 第二Drop → Outro；Drop段落密集，简单重复的派对化编排；vocal chops频繁",
-    "vocal_prop": "中高，以越南流行歌曲(V-Pop)人声和旋律混音为主；大量vocal chops；人声是曲风重要组成",
-    "parent_category": "bounce",
-    "tags": [
-      "vina bounce",
-      "vietnamese bounce",
-      "off-beat bass",
-      "four on floor",
-      "v-pop remix",
-      "bounce family",
-      "southeast asia"
-    ],
-    "confidence_weight": 0.9,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 37,
     "aliases": {}
   },
   {
@@ -1139,7 +1109,7 @@
       "distorted kick",
       "vintage"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1167,7 +1137,7 @@
       "squelch",
       "rave"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1196,7 +1166,7 @@
       "dark",
       "berghain"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1225,7 +1195,7 @@
       "warp",
       "oldschool"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1251,7 +1221,7 @@
       "detroit",
       "industrial groove"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1280,7 +1250,7 @@
       "futuristic",
       "oldschool"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1309,7 +1279,7 @@
       "atmospheric",
       "deep"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1336,7 +1306,7 @@
       "distorted kick",
       "underground"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1365,7 +1335,7 @@
       "metal",
       "dark"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1394,7 +1364,7 @@
       "melodic pad",
       "atmosphere"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1424,7 +1394,7 @@
       "subtle",
       "no big melody"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1455,7 +1425,7 @@
       "industrial",
       "charlie sparks"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1486,7 +1456,7 @@
       "modern",
       "high energy"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1515,7 +1485,7 @@
       "hard",
       "austria"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1543,7 +1513,7 @@
       "psychedelic",
       "rave"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1572,7 +1542,7 @@
       "spanish guitar",
       "chill"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1601,7 +1571,7 @@
       "atmospheric",
       "robert miles"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1630,7 +1600,7 @@
       "india",
       "oldschool"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1658,7 +1628,7 @@
       "melodic trance",
       "no reverse bass"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.23,
@@ -1709,7 +1679,7 @@
       "2020s",
       "high energy"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1734,7 +1704,7 @@
       "trance",
       "progressive trance"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1763,7 +1733,7 @@
       "psychedelic",
       "psy lead"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1791,7 +1761,7 @@
       "cold",
       "sequence"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1817,7 +1787,7 @@
       "uplifting",
       "epic melody"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1848,7 +1818,7 @@
       "uplifting",
       "epic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1877,7 +1847,7 @@
       "brostep",
       "heavy wobble"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1906,7 +1876,7 @@
       "dnb",
       "breakbeat fast"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1936,7 +1906,7 @@
       "dubstep",
       "wobble bass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1967,7 +1937,7 @@
       "808",
       "triplet hihat"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -1994,7 +1964,7 @@
       "chord stack",
       "edm pop"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2023,7 +1993,7 @@
       "moombahton",
       "latin tropical"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2052,7 +2022,7 @@
       "riddim",
       "minimal dubstep"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2080,7 +2050,7 @@
       "reverse bass",
       "festival"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.25,
@@ -2134,7 +2104,7 @@
       "festival",
       "hard dance"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.28,
@@ -2188,7 +2158,7 @@
       "reverse bass",
       "festival"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.26,
@@ -2238,7 +2208,7 @@
       "industrial raw",
       "underground rave"
     ],
-    "confidence_weight": 0.94,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.24,
@@ -2292,7 +2262,7 @@
       "experimental",
       "venetian snares"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2322,7 +2292,7 @@
       "jungle precursor",
       "90s"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2352,7 +2322,7 @@
       "atari teenage riot",
       "berlin"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2381,7 +2351,7 @@
       "finland",
       "acid"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2410,7 +2380,7 @@
       "industrial",
       "no reverse bass"
     ],
-    "confidence_weight": 0.93,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.19,
@@ -2465,7 +2435,7 @@
       "rotterdam",
       "thunderdome"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2494,7 +2464,7 @@
       "rave",
       "uk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2527,7 +2497,7 @@
       "gopnik",
       "adidas"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2556,7 +2526,7 @@
       "dark",
       "distorted"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2586,7 +2556,7 @@
       "rave",
       "valencia"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2616,7 +2586,7 @@
       "uk",
       "acid"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2646,7 +2616,7 @@
       "brutal",
       "extratone"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2675,7 +2645,7 @@
       "energy",
       "bonkers"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2706,7 +2676,7 @@
       "continuous 4/4",
       "no reverse bass"
     ],
-    "confidence_weight": 0.94,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.16,
@@ -2756,7 +2726,7 @@
       "chill",
       "melodic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2784,7 +2754,7 @@
       "party",
       "cartoon bass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2813,7 +2783,7 @@
       "melodic",
       "smooth"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2842,7 +2812,7 @@
       "dark",
       "sci-fi"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2874,7 +2844,7 @@
       "jamaica",
       "oldschool"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2903,7 +2873,7 @@
       "latin",
       "warm"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2931,7 +2901,7 @@
       "dark",
       "techno fusion"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2960,7 +2930,7 @@
       "party",
       "bmore"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -2989,7 +2959,7 @@
       "fatboy slim",
       "party"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3021,7 +2991,7 @@
       "miami",
       "orlando"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3049,7 +3019,7 @@
       "bassline",
       "underground"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3081,7 +3051,7 @@
       "the orb",
       "space"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3110,7 +3080,7 @@
       "atmospheric",
       "carl craig"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3139,7 +3109,7 @@
       "atmospheric",
       "cafe del mar"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3168,7 +3138,7 @@
       "atmospheric",
       "melodic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3198,7 +3168,7 @@
       "washed out",
       "hypnagogic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3227,7 +3197,7 @@
       "psychedelic",
       "thievery corporation"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3257,7 +3227,7 @@
       "autechre",
       "warp"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3287,7 +3257,7 @@
       "study",
       "beats to relax"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3317,7 +3287,7 @@
       "outrun",
       "vaporwave adjacent"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3350,7 +3320,7 @@
       "massive attack",
       "portishead"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3381,7 +3351,7 @@
       "macintosh plus",
       "mallsoft"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3415,7 +3385,7 @@
       "soulful",
       "electro funk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3446,7 +3416,7 @@
       "new york",
       "synth pop"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3477,7 +3447,7 @@
       "melodic",
       "diva"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3508,7 +3478,7 @@
       "euro",
       "giorgio moroder"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3539,7 +3509,7 @@
       "low end",
       "2 live crew"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3571,7 +3541,7 @@
       "80s",
       "ebm precursor"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3602,7 +3572,7 @@
       "teddy riley",
       "bobby brown"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3633,7 +3603,7 @@
       "breakdance",
       "hiphop origin"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3664,7 +3634,7 @@
       "disco",
       "meco"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3695,7 +3665,7 @@
       "roger troutman",
       "synth bass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3726,7 +3696,7 @@
       "suicide commando",
       "noise"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3757,7 +3727,7 @@
       "cold",
       "mechanical"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3788,7 +3758,7 @@
       "future",
       "gothic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3819,7 +3789,7 @@
       "mechanical",
       "cold"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3850,7 +3820,7 @@
       "808",
       "african percussion"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3876,7 +3846,7 @@
       "afrobeats",
       "african drum"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3907,7 +3877,7 @@
       "mostack",
       "melodic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3938,7 +3908,7 @@
       "frank ocean",
       "experimental"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3964,7 +3934,7 @@
       "amapiano",
       "south africa piano"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -3994,7 +3964,7 @@
       "bachata",
       "latin guitar"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4027,7 +3997,7 @@
       "chief keef",
       "lil durk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4058,7 +4028,7 @@
       "low pitch",
       "codeine"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4089,7 +4059,7 @@
       "a\\ rocky",
       "lofi"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4120,7 +4090,7 @@
       "808",
       "2000s"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4146,7 +4116,7 @@
       "dancehall",
       "jamaica"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4180,7 +4150,7 @@
       "90s",
       "la"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4212,7 +4182,7 @@
       "dizzee rascal",
       "skepta"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4239,7 +4209,7 @@
       "rap",
       "808"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4271,7 +4241,7 @@
       "oakland",
       "san francisco"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4303,7 +4273,7 @@
       "tennessee",
       "phonk influence"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4334,7 +4304,7 @@
       "nola",
       "big freedia"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4361,7 +4331,7 @@
       "boom bap",
       "sample"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4393,7 +4363,7 @@
       "808",
       "phonk drift"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4420,7 +4390,7 @@
       "808",
       "triplet hihat"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4447,7 +4417,7 @@
       "dem bow",
       "latin"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4478,7 +4448,7 @@
       "soul",
       "chill vocal"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4507,7 +4477,7 @@
       "salsa",
       "latin brass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4541,7 +4511,7 @@
       "fast",
       "party"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4575,7 +4545,7 @@
       "partynextdoor",
       "melodic"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4605,7 +4575,7 @@
       "drill",
       "pop smoke"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4637,7 +4607,7 @@
       "polyrhythm",
       "afrobeat original"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4669,7 +4639,7 @@
       "mc",
       "latin"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4705,7 +4675,7 @@
       "dance",
       "latin africa"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4736,7 +4706,7 @@
       "perreo",
       "el alfa"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4772,7 +4742,7 @@
       "dance",
       "latin caribbean"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4803,7 +4773,7 @@
       "dance",
       "latin africa"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4838,7 +4808,7 @@
       "johannesburg",
       "african"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4869,7 +4839,7 @@
       "latin",
       "reggaeton fusion"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4901,7 +4871,7 @@
       "tribal",
       "latin"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4934,7 +4904,7 @@
       "vogue beat",
       "kevyn jzpro"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4965,7 +4935,7 @@
       "ag cook",
       "experimental pop"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -4997,7 +4967,7 @@
       "avant-garde",
       "post-club"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5030,7 +5000,7 @@
       "soundcloud rap",
       "xxxtentacion"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5063,7 +5033,7 @@
       "rp boo",
       "traxman"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5095,7 +5065,7 @@
       "raw",
       "dj assault"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5127,7 +5097,7 @@
       "glitch",
       "a.g. cook"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5159,7 +5129,7 @@
       "atmospheric",
       "soundcloud rap"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5190,7 +5160,7 @@
       "happy hardcore influence",
       "tiktok"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5221,7 +5191,7 @@
       "funky",
       "uk"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5255,7 +5225,7 @@
       "oOoOO",
       "drag"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5281,7 +5251,7 @@
       "breakbeat",
       "sampled break"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5312,7 +5282,7 @@
       "70s",
       "brass"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5338,7 +5308,7 @@
       "eurobeat",
       "high energy"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5364,7 +5334,7 @@
       "eurodance",
       "90s"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5390,7 +5360,7 @@
       "jungle",
       "reggae breakbeat"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5420,7 +5390,7 @@
       "bounce family",
       "chinese club"
     ],
-    "confidence_weight": 0.88,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5453,7 +5423,7 @@
       "eurodance influence",
       "ktv friendly"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.22,
@@ -5505,7 +5475,7 @@
       "chinese traditional instrument",
       "guofeng"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5531,7 +5501,7 @@
       "glitch",
       "audio chop"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5557,7 +5527,7 @@
       "jersey club",
       "vocal chop"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5582,7 +5552,7 @@
       "other",
       "philly club"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5608,7 +5578,7 @@
       "reggae",
       "skank guitar"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5637,7 +5607,7 @@
       "ukg",
       "2step"
     ],
-    "confidence_weight": 0.8,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": null,
     "transient_profile": null,
@@ -5672,7 +5642,7 @@
       "thai folk",
       "童声remix"
     ],
-    "confidence_weight": 0.88,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.2,
@@ -5742,7 +5712,7 @@
       "hypnotic groove",
       "euphoric dark"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.27,
@@ -5794,7 +5764,7 @@
       "acid",
       "warehouse rave"
     ],
-    "confidence_weight": 0.94,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.2,
@@ -5847,7 +5817,7 @@
       "piano chords",
       "organic house"
     ],
-    "confidence_weight": 0.95,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.34,
@@ -5900,7 +5870,7 @@
       "polyrhythm",
       "soul vocal"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.28,
@@ -5952,7 +5922,7 @@
       "bouncy bass",
       "vocal chop"
     ],
-    "confidence_weight": 0.93,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.25,
@@ -6004,7 +5974,7 @@
       "latin club",
       "chant vocal"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.3,
@@ -6057,7 +6027,7 @@
       "soul vocal",
       "smooth bass"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.29,
@@ -6109,7 +6079,7 @@
       "wobble bass",
       "epic melody"
     ],
-    "confidence_weight": 0.93,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.33,
@@ -6161,7 +6131,7 @@
       "fast hihat",
       "half time"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.31,
@@ -6213,7 +6183,7 @@
       "club hyperpop",
       "bitcrush"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.21,
@@ -6265,7 +6235,7 @@
       "piano ballad",
       "string"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.15,
@@ -6316,7 +6286,7 @@
       "mainstream pop",
       "catchy vocal"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.2,
@@ -6368,7 +6338,7 @@
       "rock riff",
       "acoustic drum"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.2,
@@ -6419,7 +6389,7 @@
       "dynamic guitar",
       "reverb guitar"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.19,
@@ -6471,7 +6441,7 @@
       "808 smooth bass",
       "swing slow"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.26,
@@ -6522,7 +6492,7 @@
       "acoustic guitar",
       "story vocal"
     ],
-    "confidence_weight": 0.93,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.12,
@@ -6574,7 +6544,7 @@
       "long pad",
       "texture"
     ],
-    "confidence_weight": 0.94,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.24,
@@ -6631,7 +6601,7 @@
       "cpudj",
       "包房"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.23,
@@ -6686,7 +6656,7 @@
       "cpudj",
       "signature pluck"
     ],
-    "confidence_weight": 0.87,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.22,
@@ -6745,7 +6715,7 @@
       "cpudj",
       "包房"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.22,
@@ -6803,7 +6773,7 @@
       "songkran",
       "童声remix"
     ],
-    "confidence_weight": 0.89,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.21,
@@ -6866,7 +6836,7 @@
       "breakbeat",
       "urban"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.28,
@@ -6914,7 +6884,7 @@
       "club",
       "dance"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.18,
@@ -6962,7 +6932,7 @@
       "mainstream",
       "vocal"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.2,
@@ -7010,7 +6980,7 @@
       "气声人声",
       "smooth"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": false,
     "spectrum_profile": {
       "sub_energy": 0.26,
@@ -7057,7 +7027,7 @@
       "808",
       "mc"
     ],
-    "confidence_weight": 0.9,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.3,
@@ -7104,7 +7074,7 @@
       "sidechain",
       "dutch"
     ],
-    "confidence_weight": 0.88,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.26,
@@ -7151,7 +7121,7 @@
       "robot",
       "synth"
     ],
-    "confidence_weight": 0.87,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.22,
@@ -7198,7 +7168,7 @@
       "progressive house",
       "drop"
     ],
-    "confidence_weight": 0.92,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.28,
@@ -7245,7 +7215,7 @@
       "progressive trance",
       "psytrance"
     ],
-    "confidence_weight": 0.91,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.2,
@@ -7292,7 +7262,7 @@
       "melbourne bounce",
       "korea bounce"
     ],
-    "confidence_weight": 0.86,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.25,
@@ -7340,7 +7310,7 @@
       "festival",
       "minimal drop"
     ],
-    "confidence_weight": 0.95,
+    "confidence_weight": 0.85,
     "is_bar_common": true,
     "spectrum_profile": {
       "sub_energy": 0.28,
