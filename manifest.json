@@ -1,19 +1,19 @@
 {
   "name": "MusicToolkit Pro Genre Database",
-  "version": "v10.51",
+  "version": "v10.52",
   "release_date": "2026-09-19",
-  "timestamp": "20260919_103456",
+  "timestamp": "20260919_124111",
   "total_genres": 215,
-  "total_work_types": 7,
-  "total_entries": 222,
+  "total_work_types": 16,
+  "total_entries": 231,
   "format_version": 3,
-  "min_app_version": "1.49.0",
+  "min_app_version": "1.52.0",
   "checksums": {
-    "data_json_md5": "422f8cec9329061bb9a30b09cccbea41",
-    "data_json_sha256": "1a8e8e78fa0df9f9edaaba357800e9f7bd8e3480ab1941dc41fc222afbd102d4"
+    "data_json_md5": "3736873f34824490c89c8511c639d6ad",
+    "data_json_sha256": "be9d8e78b3ddda373e65b60b7dbca08ee4c1418415cbe72b8a912535323795c3"
   },
   "file_sizes": {
-    "data_json": 188042
+    "data_json": 248328
   },
   "genre_categories": {
     "house": 35,
@@ -50,20 +50,50 @@
     "electro": 1,
     "edm": 1
   },
-  "work_types_added": [
+  "work_types_all": [
     "Remix",
     "Bootleg",
     "Mashup",
     "Transition",
     "Edit",
     "Extended Mix",
-    "Original Mix"
+    "Original Mix",
+    "VIP Mix",
+    "Instrumental",
+    "Acapella",
+    "Dub Mix",
+    "Radio Edit",
+    "Rework",
+    "Re-Edit",
+    "Reconstruction Mix",
+    "Club Mix"
   ],
-  "new_features": [
-    "Audio segment analysis (Mashup multi-BPM detection)",
-    "Work type classification (Remix/Mashup/Transition/Edit)",
-    "Fingerprint matching support (AcoustID/Chromaprint)",
-    "Per-segment BPM detection for Mashup files"
+  "new_work_types_v10_52": [
+    "VIP Mix",
+    "Instrumental",
+    "Acapella",
+    "Dub Mix",
+    "Radio Edit",
+    "Rework",
+    "Re-Edit",
+    "Reconstruction Mix",
+    "Club Mix"
+  ],
+  "new_features_v10_52": [
+    "LUFS integrated loudness measurement (EBU R128)",
+    "Dynamic Range (DR) analysis per segment",
+    "Vocal detection module (Acapella / Instrumental auto-classification)",
+    "9 new DJ WorkType versions added (VIP/Instrumental/Acapella/Dub/Radio/Rework/Re-Edit/Reconstruction/Club)",
+    "Per-segment vocal + loudness analysis for Mashup files",
+    "Vocal-based WorkType override logic (no filename needed)",
+    "LUFS genre reference thresholds for accuracy improvement"
+  ],
+  "improvements_v10_52": [
+    "WorkType recognition now supports 16 version types",
+    "Acapella detection bypasses BPM genre scoring to prevent misclassification",
+    "Instrumental detection uses vocal energy ratio + low-frequency analysis",
+    "Extended Mix / Radio Edit mutual exclusion rule",
+    "VIP Mix vs Remix vs Bootleg source distinction logic"
   ],
   "cdn_urls": {
     "manifest": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json",
