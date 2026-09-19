@@ -1,19 +1,19 @@
 {
   "name": "MusicToolkit Pro Genre Database",
-  "version": "v10.50",
-  "release_date": "2026-09-18",
-  "timestamp": "20260918_114546",
+  "version": "v10.51",
+  "release_date": "2026-09-19",
+  "timestamp": "20260919_103456",
   "total_genres": 215,
-  "format_version": 2,
-  "min_app_version": "1.48.0",
+  "total_work_types": 7,
+  "total_entries": 222,
+  "format_version": 3,
+  "min_app_version": "1.49.0",
   "checksums": {
-    "data_json_md5": "3b130848ea293ff70c774747d5db7133",
-    "data_json_sha256": "987b9c6d572eeeb29b6358f2acb2a8f1be5527bab2b869ef79968aca486b9527",
-    "database_bin_sha256": "cd46c0a524eb3a8e26cfb2a162a33aa696b7e2dea7f585e81a6d247276bf6629"
+    "data_json_md5": "422f8cec9329061bb9a30b09cccbea41",
+    "data_json_sha256": "1a8e8e78fa0df9f9edaaba357800e9f7bd8e3480ab1941dc41fc222afbd102d4"
   },
   "file_sizes": {
-    "data_json": 238121,
-    "database_bin": 39774
+    "data_json": 188042
   },
   "genre_categories": {
     "house": 35,
@@ -50,10 +50,24 @@
     "electro": 1,
     "edm": 1
   },
+  "work_types_added": [
+    "Remix",
+    "Bootleg",
+    "Mashup",
+    "Transition",
+    "Edit",
+    "Extended Mix",
+    "Original Mix"
+  ],
+  "new_features": [
+    "Audio segment analysis (Mashup multi-BPM detection)",
+    "Work type classification (Remix/Mashup/Transition/Edit)",
+    "Fingerprint matching support (AcoustID/Chromaprint)",
+    "Per-segment BPM detection for Mashup files"
+  ],
   "cdn_urls": {
     "manifest": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json",
-    "data": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/data.json",
-    "database": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/database.bin"
+    "data": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/data.json"
   },
   "update_instructions": {
     "type": "full_replace",
