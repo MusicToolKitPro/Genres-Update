@@ -2,18 +2,18 @@
   "name": "MusicToolkit Pro Genre Database",
   "version": "v10.54",
   "release_date": "2026-09-19",
-  "timestamp": "20260919_145712",
-  "total_genres": 214,
+  "timestamp": "20260919_161149",
+  "total_genres": 211,
   "total_work_types": 16,
-  "total_entries": 230,
+  "total_entries": 227,
   "format_version": 3,
   "min_app_version": "1.54.0",
   "checksums": {
-    "data_json_md5": "97a878b245a34ddc8b6b24dee657cd93",
-    "data_json_sha256": "b4b30926aa5797acb9631b8a5bea74f27e5e1273b5a38abadac17b5602918eca"
+    "data_json_md5": "6fa4e795c8cf6a16145401659893d5b5",
+    "data_json_sha256": "2e14b616a5d4edef30558692d11b559ee2b7a99b0c52014353f80a5e43b72808"
   },
   "file_sizes": {
-    "data_json": 246893
+    "data_json": 242423
   },
   "work_types_all": [
     "Remix",

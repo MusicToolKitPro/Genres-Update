@@ -27,35 +27,56 @@
     "aliases": {}
   },
   {
-    "style_cn": "非洲浩室",
+    "style_id": 192,
+    "style_cn": "Afro House 非洲浩室",
     "style_en": "afro_house",
-    "bpm_min": 115,
-    "bpm_max": 124,
-    "beat_type": "4/4非洲切分拍",
-    "kick_feature": "弹性底鼓，非洲打击乐叠加",
-    "timbre_feature": "非洲鼓、马林巴、吟唱采样，温暖大地音色",
-    "rhythm_feature": "非洲多重重音切分，持续律动，tribal感",
-    "vocal_prop": 0.5,
+    "bpm_min": 118,
+    "bpm_max": 126,
+    "beat_type": "4/4拍，four-on-the-floor + 多层非洲复节奏打击乐",
+    "kick_feature": "紧实干净house底鼓，起音中等，低频有力；搭配大量非洲手鼓、康加鼓、牛铃多层打击；底鼓干净失真低，与民族打击乐分层",
+    "timbre_feature": "有机原声打击、灵魂人声、温暖Pad；少量非洲民族乐器采样；音色明亮温暖，律动性极强，氛围感浓厚",
+    "rhythm_feature": "4/4主底鼓叠加多层跨拍复节奏；律动摇摆；渐进式编排，Build平缓，Drop是律动释放而非爆发；节奏层次丰富",
+    "vocal_prop": "中高",
     "parent_category": "house",
     "tags": [
-      "house",
-      "afro",
-      "african drum",
-      "tribal",
-      "marimba"
+      "afro house",
+      "african house",
+      "organic percussion",
+      "polyrhythm",
+      "soul vocal"
     ],
     "confidence_weight": 0.85,
     "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 2,
+    "spectrum_profile": {
+      "sub_energy": 0.28,
+      "lf_energy": 0.27,
+      "lmf_energy": 0.14,
+      "mf_energy": 0.16,
+      "hmf_energy": 0.11,
+      "hf_energy": 0.04,
+      "band_note": "Sub充足；MF/HF大量民族打击乐细节；频谱丰富有机"
+    },
+    "transient_profile": {
+      "global_transient": 0.62,
+      "kick_transient": 0.71,
+      "kick_transient_time_ms": 10,
+      "note": "底鼓瞬态中等；多层打击乐持续产生丰富细碎瞬态"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 20,
+      "distortion_focus_band": "none",
+      "note": "整体干净，少量底鼓轻微饱和"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 2.0,
+      "loudness_target_lufs": -9,
+      "note": "动态中等，依靠打击乐层次制造情绪起伏"
+    },
     "aliases": {
       "cn": "非洲浩室",
       "jp": "アフロハウス"
-    }
+    },
+    "data_quality": "detailed"
   },
   {
     "style_cn": "贝斯线浩室",
@@ -916,76 +937,6 @@
     "aliases": {}
   },
   {
-    "style_id": 33,
-    "style_cn": "越南鼓 Vina House",
-    "style_en": "vina_house",
-    "bpm_min": 132,
-    "bpm_max": 142,
-    "beat_type": "4/4拍，连续四拍底鼓(four-on-the-floor)，反拍踩镲，2/4拍拍手，侧链压缩泵感",
-    "kick_feature": "有力响亮的底鼓，起音快，低频饱满；底鼓与贝斯侧链压缩(sidechain)，产生泵感(pumping)；底鼓响度高，是曲风驱动力；峰值时段BPM接近140时底鼓密度感更强；底鼓干净失真低，与贝斯分离但通过侧链联动",
-    "timbre_feature": "标志性弹性Bassline——低沉、清晰、拉锯感强，是Vina House最核心识别音色；明亮锯齿波/方波合成器主旋律，五声音阶；常采样越南传统民谣(如叮当口哨)、宫廷雅乐旋律；Supersaw主音，大空间混响；整体音色明亮、清新、party感强；Sub Bass集中在45-55Hz，深沉有力",
-    "rhythm_feature": "四拍稳定律动，反拍踩镲(offbeat hi-hats)，2/4拍拍手(clap)；保留Melbourne Bounce的部分Off-Beat Bass元素但改造为更弹性的Bassline；结构为不间断混音(nonstop mix)设计：16-32小节Intro → Verse/Build → Drop → 短Break → 第二Build/Drop → 长Outro；军鼓滚奏(snare-roll)铺垫密集；高潮段落密集，简单重复的派对化编排；vocal chops频繁——加速或变调的人声切片作为节奏元素",
-    "vocal_prop": "中高，以越南流行歌曲(V-Pop)人声和旋律混音为主；大量vocal chops（加速/变调的副歌切片）；常见MC呐喊式短句(如\"Lên! Lên!\")；人群合唱式chant；人声是曲风重要组成，常作为主旋律载体",
-    "parent_category": "house",
-    "tags": [
-      "vina house",
-      "vietnamese house",
-      "vietnam",
-      "elastic bassline",
-      "four on floor",
-      "v-pop remix",
-      "offbeat bass",
-      "nonstop mix",
-      "五声音阶",
-      "southeast asia"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.24,
-      "lf_energy": 0.3,
-      "lmf_energy": 0.16,
-      "mf_energy": 0.12,
-      "hmf_energy": 0.13,
-      "hf_energy": 0.05,
-      "band_note": "Vina House: Sub/LF very strong with elastic bassline; sidechain compression creates periodic low-frequency pumping; HMF for pentatonic melody; continuous 4/4 kick is key identifier"
-    },
-    "transient_profile": {
-      "global_transient": 0.72,
-      "kick_transient": 0.8,
-      "kick_transient_time_ms": 7,
-      "note": "底鼓起音快；Bassline弹性瞬态明显；vocal chops带来额外瞬态"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 16,
-      "distortion_focus_band": "60–200Hz",
-      "note": "轻中度失真，主要在底鼓和Bassline；主旋律合成器干净明亮；无Reverse Bass调制"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.7,
-      "loudness_target_lufs": -7,
-      "note": "商业压缩较高；侧链压缩造成低频泵感；Drop与Intro响度差明显"
-    },
-    "origin_info": {
-      "origin_place": "越南",
-      "origin_decade": "1990年代末",
-      "pioneer_tracks": [
-        "DJ Hoàng Trọc & DJ Alan Tian - Tình phai"
-      ],
-      "sub_genres": [
-        "Progressive Vinahouse（较慢更旋律化，125-132BPM）"
-      ],
-      "cultural_note": "从越南本土发展，融合Melbourne Bounce的Off-Beat Bass与K-Pop影响，采样越南传统民谣和宫廷雅乐，使用五声音阶；为nonstop不间断混音格式设计；在东南亚夜店和中国二三线酒吧是绝对主流"
-    },
-    "aliases": {
-      "cn": "越南鼓",
-      "jp": "ビナハウス",
-      "vn": "Vinahouse",
-      "th": "เวียดนามเฮาส์"
-    },
-    "data_quality": "detailed"
-  },
-  {
     "style_cn": "硬弹跳 Hard Bounce",
     "style_en": "hard_bounce",
     "bpm_min": 140,
@@ -1290,31 +1241,56 @@
     "aliases": {}
   },
   {
-    "style_cn": "硬Techno",
+    "style_id": 190,
+    "style_cn": "Hard Techno 硬科技",
     "style_en": "hard_techno",
-    "bpm_min": 135,
-    "bpm_max": 155,
-    "beat_type": "4/4拍",
-    "kick_feature": "重度失真硬底鼓，冲击力极强",
-    "timbre_feature": "失真工业音色，高频尖锐，强压缩",
-    "rhythm_feature": "高速机械律动，持续高能量",
-    "vocal_prop": 0.05,
+    "bpm_min": 148,
+    "bpm_max": 165,
+    "beat_type": "4/4高速直拍，工业感持续底鼓",
+    "kick_feature": "工业重型失真底鼓，起音锐利，短促坚硬；LF重度饱和失真；无reverse bass；底鼓是核心驱动力，肥厚短促，带金属谐波",
+    "timbre_feature": "酸性Acid方波、金属质感打击音效、粗糙工业噪声；旋律极少，重点在律动与音色纹理；音色黑暗粗粝，中频尖锐",
+    "rhythm_feature": "持续不间断4/4直拍；极简编排；Build-up依靠底鼓密度上升、噪声爬升；Drop无复杂旋律，依靠底鼓+打击乐制造压迫感；切分少，催眠式强推进",
+    "vocal_prop": "极低",
     "parent_category": "techno",
     "tags": [
-      "techno",
       "hard techno",
+      "industrial techno",
       "distorted kick",
-      "underground"
+      "acid",
+      "warehouse rave"
     ],
     "confidence_weight": 0.85,
     "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 45,
-    "aliases": {}
+    "spectrum_profile": {
+      "sub_energy": 0.2,
+      "lf_energy": 0.36,
+      "lmf_energy": 0.2,
+      "mf_energy": 0.12,
+      "hmf_energy": 0.09,
+      "hf_energy": 0.03,
+      "band_note": "LF能量最强，重度失真集中80–250Hz；Sub压低防止浑浊；高频金属噪声提供质感"
+    },
+    "transient_profile": {
+      "global_transient": 0.84,
+      "kick_transient": 0.91,
+      "kick_transient_time_ms": 5,
+      "note": "底鼓瞬态极强，全程持续冲击；缺少柔和稳态音色"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 6,
+      "distortion_focus_band": "80–250Hz",
+      "note": "底鼓重度工业失真，合成器带饱和；无reverse bass调制"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.5,
+      "loudness_target_lufs": -6,
+      "note": "高压缩，动态很小，全程维持高响度"
+    },
+    "aliases": {
+      "cn": "硬科技",
+      "jp": "ハードテクノ"
+    },
+    "data_quality": "detailed"
   },
   {
     "style_cn": "工业Techno",
@@ -1349,33 +1325,57 @@
     }
   },
   {
-    "style_cn": "旋律Techno",
+    "style_id": 189,
+    "style_cn": "Melodic Techno 旋律科技",
     "style_en": "melodic_techno",
     "bpm_min": 122,
     "bpm_max": 130,
-    "beat_type": "4/4拍",
-    "kick_feature": "稳定干净底鼓，力度适中",
-    "timbre_feature": "氛围感绵长旋律垫音，冷色调旋律",
-    "rhythm_feature": "缓慢演化，渐进式情绪起伏",
-    "vocal_prop": 0.3,
+    "beat_type": "4/4拍，稳定four-on-the-floor底鼓",
+    "kick_feature": "干净紧实底鼓，起音中等，低频稳定，轻微中频打击，失真极低；底鼓轮廓顺滑，不肥厚，与合成器分离度高",
+    "timbre_feature": "绵长氛围感Pad，缓慢演化的锯齿琶音，深沉忧郁合成器主旋律；音色空间感巨大，混响量大，偏暗冷色调；低频沉稳，中高频空灵",
+    "rhythm_feature": "长段落渐进式编排，极长Build-up；依靠滤波、白噪缓慢爬升；Drop冲击力温和，不靠爆发，靠律动沉浸；律动催眠、循环感极强；很少大量切分停顿",
+    "vocal_prop": "低",
     "parent_category": "techno",
     "tags": [
+      "melodic techno",
       "techno",
-      "melodic pad",
-      "atmosphere"
+      "afterlife",
+      "long pad",
+      "hypnotic groove",
+      "euphoric dark"
     ],
     "confidence_weight": 0.85,
     "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 47,
+    "spectrum_profile": {
+      "sub_energy": 0.27,
+      "lf_energy": 0.26,
+      "lmf_energy": 0.13,
+      "mf_energy": 0.14,
+      "hmf_energy": 0.15,
+      "hf_energy": 0.05,
+      "band_note": "Sub与LF均衡；HMF承载空灵Pad与琶音；频谱平滑，瞬态峰值少"
+    },
+    "transient_profile": {
+      "global_transient": 0.5,
+      "kick_transient": 0.63,
+      "kick_transient_time_ms": 10,
+      "note": "全局瞬态偏弱，底鼓冲击柔和；大量稳态Pad带来持续频谱"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 21,
+      "distortion_focus_band": "none",
+      "note": "整体干净，仅少量合成器轻微饱和失真"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 2.2,
+      "loudness_target_lufs": -9,
+      "note": "动态范围大，段落缓慢升降，Drop响度提升平缓"
+    },
     "aliases": {
-      "cn": "旋律科技诺",
+      "cn": "旋律科技",
       "jp": "メロディックテクノ"
-    }
+    },
+    "data_quality": "detailed"
   },
   {
     "style_cn": "极简Techno",
@@ -1921,31 +1921,56 @@
     }
   },
   {
-    "style_cn": "EDM Trap电子陷阱",
+    "style_id": 197,
+    "style_cn": "EDM Trap 电子陷阱",
     "style_en": "edm_trap",
     "bpm_min": 140,
     "bpm_max": 150,
-    "beat_type": "4/4三连踩镲",
-    "kick_feature": "808低频底鼓，底鼓低沉厚重",
-    "timbre_feature": "808贝斯，尖锐合成器lead，快速踩镲",
-    "rhythm_feature": "三连音高速踩镲，重拍停顿冲击",
-    "vocal_prop": 0.4,
-    "parent_category": "bass_music",
+    "beat_type": "Half-time半拍律动，808鼓组，快速滚奏踩镲",
+    "kick_feature": "808超低频底鼓，两拍一次重底鼓；短促军鼓；极快16/32分音符踩镲滚奏；底鼓低频肥厚",
+    "timbre_feature": "808贝斯，尖锐合成器主音；铜管音色、打击音效；旋律简短有力，派对感强",
+    "rhythm_feature": "半拍律动，体感速度减半；Build依靠踩镲加速；Drop重拍爆发力强；大量停顿切分；全球夜店热门",
+    "vocal_prop": "中",
+    "parent_category": "trap",
     "tags": [
-      "bass",
       "edm trap",
-      "808",
-      "triplet hihat"
+      "trap",
+      "808 bass",
+      "fast hihat",
+      "half time"
     ],
     "confidence_weight": 0.85,
     "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 66,
-    "aliases": {}
+    "spectrum_profile": {
+      "sub_energy": 0.31,
+      "lf_energy": 0.28,
+      "lmf_energy": 0.17,
+      "mf_energy": 0.1,
+      "hmf_energy": 0.1,
+      "hf_energy": 0.04,
+      "band_note": "Sub能量高；高频快速踩镲提供识别特征"
+    },
+    "transient_profile": {
+      "global_transient": 0.77,
+      "kick_transient": 0.85,
+      "kick_transient_time_ms": 7,
+      "note": "底鼓单次冲击强；高速踩镲带来持续高频瞬态"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 10,
+      "distortion_focus_band": "60–200Hz",
+      "note": "808贝斯轻度失真，合成器带饱和"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.6,
+      "loudness_target_lufs": -7,
+      "note": "高压缩，Drop响度拉满，停顿制造响度落差"
+    },
+    "aliases": {
+      "cn": "电子陷阱",
+      "jp": "EDMトラップ"
+    },
+    "data_quality": "detailed"
   },
   {
     "style_cn": "未来贝斯 Future Bass",
@@ -3919,34 +3944,58 @@
     "aliases": {}
   },
   {
-    "style_cn": "Amapiano阿玛皮亚诺",
+    "style_id": 191,
+    "style_cn": "Amapiano 阿马皮亚诺",
     "style_en": "amapiano",
-    "bpm_min": 110,
-    "bpm_max": 120,
-    "beat_type": "4/4拍",
-    "kick_feature": "平滑底鼓，钢琴长音",
-    "timbre_feature": "标志性南非钢琴，垫音绵长",
-    "rhythm_feature": "缓慢松弛groove，钢琴循环动机",
-    "vocal_prop": 0.4,
-    "parent_category": "urban",
+    "bpm_min": 108,
+    "bpm_max": 116,
+    "beat_type": "4/4拍，LogDrum标志性低频，多复节奏打击乐",
+    "kick_feature": "标志性LogDrum底鼓，低频深沉厚重，起音缓慢，弹性悠长；底鼓音色像原木敲击；干净低失真，和多层非洲打击乐叠加",
+    "timbre_feature": "温暖爵士钢琴和弦、非洲手鼓、沙锤、铃铛；柔和合成器Pad；旋律舒缓，和声色彩丰富；音色有机、温暖、松弛",
+    "rhythm_feature": "多重复节奏叠加，不是简单四拍驱动；律动慵懒松弛；长循环钢琴动机；段落缓慢演进，几乎没有剧烈Drop爆发；适合暖场",
+    "vocal_prop": "中",
+    "parent_category": "african_club",
     "tags": [
-      "urban",
       "amapiano",
-      "south africa piano"
+      "south africa",
+      "log drum",
+      "african percussion",
+      "piano chords",
+      "organic house"
     ],
     "confidence_weight": 0.85,
     "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 128,
+    "spectrum_profile": {
+      "sub_energy": 0.34,
+      "lf_energy": 0.25,
+      "lmf_energy": 0.12,
+      "mf_energy": 0.15,
+      "hmf_energy": 0.1,
+      "hf_energy": 0.04,
+      "band_note": "Sub能量极高，LogDrum核心识别；MF承载钢琴和弦；高频是细碎打击乐"
+    },
+    "transient_profile": {
+      "global_transient": 0.48,
+      "kick_transient": 0.54,
+      "kick_transient_time_ms": 16,
+      "note": "底鼓起音缓慢，瞬态偏弱；细碎打击乐带来少量高频瞬态"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 22,
+      "distortion_focus_band": "none",
+      "note": "几乎无失真，天然有机音色"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 2.3,
+      "loudness_target_lufs": -10,
+      "note": "动态范围较大，整体响度偏低，松弛暖场质感"
+    },
     "aliases": {
-      "cn": "阿玛皮亚诺",
+      "cn": "阿马皮亚诺",
       "jp": "アマピアノ",
       "za": "Amapiano"
-    }
+    },
+    "data_quality": "detailed"
   },
   {
     "style_cn": "巴恰塔 Bachata",
@@ -5371,36 +5420,6 @@
     "aliases": {}
   },
   {
-    "style_cn": "中式弹跳 Chinese Bounce（中国弹跳）",
-    "style_en": "chinese_bounce",
-    "bpm_min": 138,
-    "bpm_max": 145,
-    "beat_type": "4/4拍，四拍底鼓，Off-Beat反拍贝斯，反拍踩镲",
-    "kick_feature": "有力响亮的底鼓，起音快，低频饱满；底鼓与Off-Beat贝斯联动；底鼓响度高，是曲风驱动力；底鼓干净失真低；比Vina Bounce更注重kick驱动",
-    "timbre_feature": "Off-Beat反拍Pluck贝斯——明亮、弹跳；明亮锯齿波合成器主旋律；常采样中文流行歌曲人声；整体音色明亮、弹跳、商业感强；与Vina Bounce的区别在于人声语言和旋律风格",
-    "rhythm_feature": "四拍稳定律动，Off-Beat反拍贝斯；结构为Intro → Build → Drop → Break → 第二Drop → Outro；Drop段落密集，简单重复的派对化编排；vocal chops频繁；中国夜店和包房流行",
-    "vocal_prop": "中高，以中文流行歌曲人声混音为主；大量vocal chops；人声是曲风重要组成",
-    "parent_category": "bounce",
-    "tags": [
-      "chinese bounce",
-      "中国弹跳",
-      "off-beat bass",
-      "four on floor",
-      "mandopop remix",
-      "bounce family",
-      "chinese club"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 175,
-    "aliases": {}
-  },
-  {
     "style_cn": "慢摇 Manyao（中文慢摇）",
     "style_en": "manyao",
     "bpm_min": 95,
@@ -5693,217 +5712,6 @@
     }
   },
   {
-    "style_id": 189,
-    "style_cn": "Melodic Techno 旋律科技",
-    "style_en": "melodic_techno",
-    "bpm_min": 122,
-    "bpm_max": 130,
-    "beat_type": "4/4拍，稳定four-on-the-floor底鼓",
-    "kick_feature": "干净紧实底鼓，起音中等，低频稳定，轻微中频打击，失真极低；底鼓轮廓顺滑，不肥厚，与合成器分离度高",
-    "timbre_feature": "绵长氛围感Pad，缓慢演化的锯齿琶音，深沉忧郁合成器主旋律；音色空间感巨大，混响量大，偏暗冷色调；低频沉稳，中高频空灵",
-    "rhythm_feature": "长段落渐进式编排，极长Build-up；依靠滤波、白噪缓慢爬升；Drop冲击力温和，不靠爆发，靠律动沉浸；律动催眠、循环感极强；很少大量切分停顿",
-    "vocal_prop": "低",
-    "parent_category": "techno",
-    "tags": [
-      "melodic techno",
-      "techno",
-      "afterlife",
-      "long pad",
-      "hypnotic groove",
-      "euphoric dark"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.27,
-      "lf_energy": 0.26,
-      "lmf_energy": 0.13,
-      "mf_energy": 0.14,
-      "hmf_energy": 0.15,
-      "hf_energy": 0.05,
-      "band_note": "Sub与LF均衡；HMF承载空灵Pad与琶音；频谱平滑，瞬态峰值少"
-    },
-    "transient_profile": {
-      "global_transient": 0.5,
-      "kick_transient": 0.63,
-      "kick_transient_time_ms": 10,
-      "note": "全局瞬态偏弱，底鼓冲击柔和；大量稳态Pad带来持续频谱"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 21,
-      "distortion_focus_band": "none",
-      "note": "整体干净，仅少量合成器轻微饱和失真"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.2,
-      "loudness_target_lufs": -9,
-      "note": "动态范围大，段落缓慢升降，Drop响度提升平缓"
-    },
-    "aliases": {
-      "cn": "旋律科技",
-      "jp": "メロディックテクノ"
-    },
-    "data_quality": "detailed"
-  },
-  {
-    "style_id": 190,
-    "style_cn": "Hard Techno 硬科技",
-    "style_en": "hard_techno",
-    "bpm_min": 148,
-    "bpm_max": 165,
-    "beat_type": "4/4高速直拍，工业感持续底鼓",
-    "kick_feature": "工业重型失真底鼓，起音锐利，短促坚硬；LF重度饱和失真；无reverse bass；底鼓是核心驱动力，肥厚短促，带金属谐波",
-    "timbre_feature": "酸性Acid方波、金属质感打击音效、粗糙工业噪声；旋律极少，重点在律动与音色纹理；音色黑暗粗粝，中频尖锐",
-    "rhythm_feature": "持续不间断4/4直拍；极简编排；Build-up依靠底鼓密度上升、噪声爬升；Drop无复杂旋律，依靠底鼓+打击乐制造压迫感；切分少，催眠式强推进",
-    "vocal_prop": "极低",
-    "parent_category": "techno",
-    "tags": [
-      "hard techno",
-      "industrial techno",
-      "distorted kick",
-      "acid",
-      "warehouse rave"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.2,
-      "lf_energy": 0.36,
-      "lmf_energy": 0.2,
-      "mf_energy": 0.12,
-      "hmf_energy": 0.09,
-      "hf_energy": 0.03,
-      "band_note": "LF能量最强，重度失真集中80–250Hz；Sub压低防止浑浊；高频金属噪声提供质感"
-    },
-    "transient_profile": {
-      "global_transient": 0.84,
-      "kick_transient": 0.91,
-      "kick_transient_time_ms": 5,
-      "note": "底鼓瞬态极强，全程持续冲击；缺少柔和稳态音色"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 6,
-      "distortion_focus_band": "80–250Hz",
-      "note": "底鼓重度工业失真，合成器带饱和；无reverse bass调制"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.5,
-      "loudness_target_lufs": -6,
-      "note": "高压缩，动态很小，全程维持高响度"
-    },
-    "aliases": {
-      "cn": "硬科技",
-      "jp": "ハードテクノ"
-    },
-    "data_quality": "detailed"
-  },
-  {
-    "style_id": 191,
-    "style_cn": "Amapiano 阿马皮亚诺",
-    "style_en": "amapiano",
-    "bpm_min": 108,
-    "bpm_max": 116,
-    "beat_type": "4/4拍，LogDrum标志性低频，多复节奏打击乐",
-    "kick_feature": "标志性LogDrum底鼓，低频深沉厚重，起音缓慢，弹性悠长；底鼓音色像原木敲击；干净低失真，和多层非洲打击乐叠加",
-    "timbre_feature": "温暖爵士钢琴和弦、非洲手鼓、沙锤、铃铛；柔和合成器Pad；旋律舒缓，和声色彩丰富；音色有机、温暖、松弛",
-    "rhythm_feature": "多重复节奏叠加，不是简单四拍驱动；律动慵懒松弛；长循环钢琴动机；段落缓慢演进，几乎没有剧烈Drop爆发；适合暖场",
-    "vocal_prop": "中",
-    "parent_category": "african_club",
-    "tags": [
-      "amapiano",
-      "south africa",
-      "log drum",
-      "african percussion",
-      "piano chords",
-      "organic house"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.34,
-      "lf_energy": 0.25,
-      "lmf_energy": 0.12,
-      "mf_energy": 0.15,
-      "hmf_energy": 0.1,
-      "hf_energy": 0.04,
-      "band_note": "Sub能量极高，LogDrum核心识别；MF承载钢琴和弦；高频是细碎打击乐"
-    },
-    "transient_profile": {
-      "global_transient": 0.48,
-      "kick_transient": 0.54,
-      "kick_transient_time_ms": 16,
-      "note": "底鼓起音缓慢，瞬态偏弱；细碎打击乐带来少量高频瞬态"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 22,
-      "distortion_focus_band": "none",
-      "note": "几乎无失真，天然有机音色"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.3,
-      "loudness_target_lufs": -10,
-      "note": "动态范围较大，整体响度偏低，松弛暖场质感"
-    },
-    "aliases": {
-      "cn": "阿马皮亚诺",
-      "jp": "アマピアノ",
-      "za": "Amapiano"
-    },
-    "data_quality": "detailed"
-  },
-  {
-    "style_id": 192,
-    "style_cn": "Afro House 非洲浩室",
-    "style_en": "afro_house",
-    "bpm_min": 118,
-    "bpm_max": 126,
-    "beat_type": "4/4拍，four-on-the-floor + 多层非洲复节奏打击乐",
-    "kick_feature": "紧实干净house底鼓，起音中等，低频有力；搭配大量非洲手鼓、康加鼓、牛铃多层打击；底鼓干净失真低，与民族打击乐分层",
-    "timbre_feature": "有机原声打击、灵魂人声、温暖Pad；少量非洲民族乐器采样；音色明亮温暖，律动性极强，氛围感浓厚",
-    "rhythm_feature": "4/4主底鼓叠加多层跨拍复节奏；律动摇摆；渐进式编排，Build平缓，Drop是律动释放而非爆发；节奏层次丰富",
-    "vocal_prop": "中高",
-    "parent_category": "house",
-    "tags": [
-      "afro house",
-      "african house",
-      "organic percussion",
-      "polyrhythm",
-      "soul vocal"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.28,
-      "lf_energy": 0.27,
-      "lmf_energy": 0.14,
-      "mf_energy": 0.16,
-      "hmf_energy": 0.11,
-      "hf_energy": 0.04,
-      "band_note": "Sub充足；MF/HF大量民族打击乐细节；频谱丰富有机"
-    },
-    "transient_profile": {
-      "global_transient": 0.62,
-      "kick_transient": 0.71,
-      "kick_transient_time_ms": 10,
-      "note": "底鼓瞬态中等；多层打击乐持续产生丰富细碎瞬态"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 20,
-      "distortion_focus_band": "none",
-      "note": "整体干净，少量底鼓轻微饱和"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.0,
-      "loudness_target_lufs": -9,
-      "note": "动态中等，依靠打击乐层次制造情绪起伏"
-    },
-    "aliases": {
-      "cn": "非洲浩室",
-      "jp": "アフロハウス"
-    },
-    "data_quality": "detailed"
-  },
-  {
     "style_id": 193,
     "style_cn": "UK Speed Garage 英国速车库",
     "style_en": "uk_speed_garage",
@@ -5952,59 +5760,6 @@
     "aliases": {
       "cn": "英国速车库",
       "jp": "スピードガラージ"
-    },
-    "data_quality": "detailed"
-  },
-  {
-    "style_id": 194,
-    "style_cn": "Baile Funk 巴西放克",
-    "style_en": "baile_funk",
-    "bpm_min": 130,
-    "bpm_max": 150,
-    "beat_type": "4/4，巴西funk切分鼓组，808重低音",
-    "kick_feature": "808底鼓，低频巨大绵长；短促军鼓，快速细碎踩镲；底鼓厚重，侧链联动贝斯，带有轻微饱和",
-    "timbre_feature": "808超低频贝斯，简单合成器主音；大量人声喊麦、巴西葡萄牙语chant；音色粗、直白，派对感极强",
-    "rhythm_feature": "标志性巴西funk切分律动；重拍偏移；循环简单动机；Drop节奏密集，大量人声chant驱动；南美夜店主流",
-    "vocal_prop": "高",
-    "parent_category": "latin_club",
-    "tags": [
-      "baile funk",
-      "brazil funk",
-      "808 bass",
-      "latin club",
-      "chant vocal"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.3,
-      "lf_energy": 0.29,
-      "lmf_energy": 0.16,
-      "mf_energy": 0.11,
-      "hmf_energy": 0.1,
-      "hf_energy": 0.04,
-      "band_note": "Sub能量极强，808占据超低频；中频简单，人声占MF"
-    },
-    "transient_profile": {
-      "global_transient": 0.79,
-      "kick_transient": 0.83,
-      "kick_transient_time_ms": 6,
-      "note": "808底鼓瞬态强，军鼓切片带来额外冲击"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 12,
-      "distortion_focus_band": "60–180Hz",
-      "note": "808贝斯轻度饱和失真，人声干净"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.6,
-      "loudness_target_lufs": -6,
-      "note": "高压缩，全程响度稳定，低频冲击力强"
-    },
-    "aliases": {
-      "cn": "巴西放克",
-      "jp": "バイリーファンク",
-      "br": "Baile Funk"
     },
     "data_quality": "detailed"
   },
@@ -6109,58 +5864,6 @@
     "aliases": {
       "cn": "旋律回响贝斯",
       "jp": "メロディックダブステップ"
-    },
-    "data_quality": "detailed"
-  },
-  {
-    "style_id": 197,
-    "style_cn": "EDM Trap 电子陷阱",
-    "style_en": "edm_trap",
-    "bpm_min": 140,
-    "bpm_max": 150,
-    "beat_type": "Half-time半拍律动，808鼓组，快速滚奏踩镲",
-    "kick_feature": "808超低频底鼓，两拍一次重底鼓；短促军鼓；极快16/32分音符踩镲滚奏；底鼓低频肥厚",
-    "timbre_feature": "808贝斯，尖锐合成器主音；铜管音色、打击音效；旋律简短有力，派对感强",
-    "rhythm_feature": "半拍律动，体感速度减半；Build依靠踩镲加速；Drop重拍爆发力强；大量停顿切分；全球夜店热门",
-    "vocal_prop": "中",
-    "parent_category": "trap",
-    "tags": [
-      "edm trap",
-      "trap",
-      "808 bass",
-      "fast hihat",
-      "half time"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.31,
-      "lf_energy": 0.28,
-      "lmf_energy": 0.17,
-      "mf_energy": 0.1,
-      "hmf_energy": 0.1,
-      "hf_energy": 0.04,
-      "band_note": "Sub能量高；高频快速踩镲提供识别特征"
-    },
-    "transient_profile": {
-      "global_transient": 0.77,
-      "kick_transient": 0.85,
-      "kick_transient_time_ms": 7,
-      "note": "底鼓单次冲击强；高速踩镲带来持续高频瞬态"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 10,
-      "distortion_focus_band": "60–200Hz",
-      "note": "808贝斯轻度失真，合成器带饱和"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.6,
-      "loudness_target_lufs": -7,
-      "note": "高压缩，Drop响度拉满，停顿制造响度落差"
-    },
-    "aliases": {
-      "cn": "电子陷阱",
-      "jp": "EDMトラップ"
     },
     "data_quality": "detailed"
   },
@@ -7292,7 +6995,7 @@
   },
   {
     "style_id": 221,
-    "style_cn": "炸房浩室 Bigroom House",
+    "style_cn": "大房间House",
     "style_en": "bigroom_house",
     "bpm_min": 126,
     "bpm_max": 132,
@@ -7300,15 +7003,12 @@
     "kick_feature": "巨大厚重带音高的底鼓，起音快，低频深沉；底鼓本身兼任低音；Drop前常留白骤停制造冲击",
     "timbre_feature": "巨大宽频Supersaw合成器；极简单音/双音动机；巨型混响Pad；几乎没有持续Bassline；底鼓带音高",
     "rhythm_feature": "4/4稳定律动，配器极度精简；Pre-drop长Snare Roll+Riser；Drop前留白骤停；没有持续反拍贝斯；适合音乐节主舞台",
-    "vocal_prop": "中低",
+    "vocal_prop": 0.3,
     "parent_category": "house",
     "tags": [
       "bigroom",
-      "bigroom house",
-      "炸房浩室",
-      "supersaw",
       "festival",
-      "minimal drop"
+      "mainstage"
     ],
     "confidence_weight": 0.85,
     "is_bar_common": true,
@@ -7321,22 +7021,7 @@
       "hf_energy": 0.08,
       "band_note": "Tuned底鼓占据40~90Hz；Supersaw宽频合成器1.8k~6kHz；Breakdown高频泛音丰富"
     },
-    "transient_profile": {
-      "global_transient": 0.82,
-      "kick_transient": 0.9,
-      "kick_transient_time_ms": 4,
-      "note": "底鼓瞬态极强，带音高的厚重冲击；Drop前留白制造瞬态对比"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 10,
-      "distortion_focus_band": "60–250Hz",
-      "note": "中度失真，底鼓带饱和；Supersaw合成器干净宽频"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.4,
-      "loudness_target_lufs": -5,
-      "note": "极强侧链；巨大动态反差，Breakdown空灵宽阔，Drop瞬间爆发；LUFS -4 ~ -6"
-    }
+    "data_quality": "basic"
   },
   {
     "type_id": 1,
@@ -7645,5 +7330,277 @@
     ],
     "confidence_weight": 0.85,
     "style_id": 9016
+  },
+  {
+    "style_en": "Electro_Mix",
+    "style_cn": "国内Electro Mix",
+    "bpm_min": 126,
+    "bpm_max": 134,
+    "bpm_core": 128,
+    "beat_type": "4/4拍",
+    "kick_feature": "四四拍稳定底鼓，侧链压缩明显",
+    "timbre_feature": "锯齿波合成器主音，中高频尖锐明亮",
+    "rhythm_feature": "锯齿合成器主导，glitch效果偶尔出现",
+    "vocal_prop": 0.45,
+    "parent_category": "house",
+    "tags": [
+      "electro",
+      "锯齿波",
+      "国内夜店",
+      "bright"
+    ],
+    "confidence_weight": 0.85,
+    "is_bar_common": true,
+    "spectral_profile": {
+      "sub_energy": 0.15,
+      "lf_energy": 0.32,
+      "lmf_energy": 0.2,
+      "mf_energy": 0.18,
+      "hmf_energy": 0.12,
+      "hf_energy": 0.03,
+      "band_note": "中高频能量高，锯齿合成器集中2-4kHz"
+    },
+    "transient_profile": {
+      "global_transient": 0.75,
+      "kick_transient": 0.8,
+      "kick_transient_time_ms": 8,
+      "note": "底鼓稳定，合成器瞬态强"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 10,
+      "distortion_focus_band": "200-2000Hz",
+      "note": "合成器重度锯齿失真"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.5,
+      "loudness_target_lufs": -9.5,
+      "note": "经典Electro House结构"
+    },
+    "style_id": 221,
+    "aliases": {
+      "cn": "Electro混音",
+      "keyword": [
+        "electro",
+        "电子"
+      ]
+    },
+    "category": "Genre",
+    "data_quality": "detailed",
+    "distinguish_rule": "锯齿失真合成器主音为核心标志，和Bounce/VinaHouse互斥"
+  },
+  {
+    "style_en": "CN_Progressive_House",
+    "style_cn": "国内改编Progressive House",
+    "bpm_min": 122,
+    "bpm_max": 129,
+    "bpm_core": 126,
+    "beat_type": "4/4拍",
+    "kick_feature": "平稳底鼓，侧链柔和",
+    "timbre_feature": "多层长Pad铺底，氛围感强",
+    "rhythm_feature": "渐进式铺底，能量缓慢爬升",
+    "vocal_prop": 0.75,
+    "parent_category": "house",
+    "tags": [
+      "progressive",
+      "慢摇",
+      "抒情",
+      "氛围感"
+    ],
+    "confidence_weight": 0.85,
+    "is_bar_common": true,
+    "spectral_profile": {
+      "sub_energy": 0.18,
+      "lf_energy": 0.26,
+      "lmf_energy": 0.22,
+      "mf_energy": 0.2,
+      "hmf_energy": 0.1,
+      "hf_energy": 0.04,
+      "band_note": "频谱重心偏低，空间感强，多层Pad"
+    },
+    "transient_profile": {
+      "global_transient": 0.55,
+      "kick_transient": 0.65,
+      "kick_transient_time_ms": 12,
+      "note": "鼓组不冲击，瞬态平缓"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 22,
+      "distortion_focus_band": "none",
+      "note": "失真极低，干净柔和"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.4,
+      "loudness_target_lufs": -11.5,
+      "note": "长段落缓慢爬升，无猛烈Drop"
+    },
+    "style_id": 222,
+    "aliases": {
+      "cn": "Progressive国内版",
+      "keyword": [
+        "progressive",
+        "渐进"
+      ]
+    },
+    "category": "Genre",
+    "data_quality": "detailed",
+    "distinguish_rule": "BPM更低，低频收敛，能量渐进；和VinaHouse区分：BPM<130，无Slap Bass"
+  },
+  {
+    "style_en": "Lak_House",
+    "style_cn": "Lak House 东南亚慢摇",
+    "bpm_min": 125,
+    "bpm_max": 133,
+    "bpm_core": 128,
+    "beat_type": "4/4拍",
+    "kick_feature": "底鼓轻柔，没有VinaHouse厚重",
+    "timbre_feature": "空灵长Pad，轻柔旋律，空气感高频",
+    "rhythm_feature": "律动松弛，偏慢摇，无强Drop",
+    "vocal_prop": 0.68,
+    "parent_category": "house",
+    "tags": [
+      "lak house",
+      "慢摇",
+      "东南亚",
+      "空灵"
+    ],
+    "confidence_weight": 0.85,
+    "is_bar_common": true,
+    "spectral_profile": {
+      "sub_energy": 0.16,
+      "lf_energy": 0.29,
+      "lmf_energy": 0.24,
+      "mf_energy": 0.18,
+      "hmf_energy": 0.1,
+      "hf_energy": 0.03,
+      "band_note": "低频收敛，空灵Pad，能量平缓"
+    },
+    "transient_profile": {
+      "global_transient": 0.5,
+      "kick_transient": 0.6,
+      "kick_transient_time_ms": 14,
+      "note": "瞬态最弱，无强冲击"
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 25,
+      "distortion_focus_band": "none",
+      "note": "极低失真，干净顺滑"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.3,
+      "loudness_target_lufs": -11.5,
+      "note": "起伏平缓，无剧烈爆发，has_drop=false"
+    },
+    "style_id": 224,
+    "aliases": {
+      "cn": "Lak House慢摇",
+      "keyword": [
+        "lak",
+        "慢摇"
+      ]
+    },
+    "category": "Genre",
+    "data_quality": "detailed",
+    "distinguish_rule": "BPM<133，无Slap Bass，能量平缓；介于ProgHouse和VinaHouse之间"
+  },
+  {
+    "style_en": "Vina_House",
+    "style_cn": "Vina House 越南鼓",
+    "bpm_min": 132,
+    "bpm_max": 142,
+    "beat_type": "4/4拍",
+    "kick_feature": "底鼓饱满绵长，弹性Slap Bass",
+    "timbre_feature": "东南亚五声音阶旋律，抒情线条长",
+    "rhythm_feature": "旋律主导，Build-up偏长，叙事感强",
+    "vocal_prop": 0.72,
+    "parent_category": "house",
+    "tags": [
+      "vina house",
+      "越南鼓",
+      "vinahouse",
+      "slap bass"
+    ],
+    "confidence_weight": 0.85,
+    "is_bar_common": true,
+    "spectral_profile": {
+      "sub_energy": 0.22,
+      "lf_energy": 0.36,
+      "lmf_energy": 0.2,
+      "mf_energy": 0.14,
+      "hmf_energy": 0.06,
+      "hf_energy": 0.02
+    },
+    "transient_profile": {
+      "global_transient": 0.7,
+      "kick_transient": 0.78,
+      "kick_transient_time_ms": 7
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 16,
+      "distortion_focus_band": "100-250Hz"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.5,
+      "loudness_target_lufs": -9.5
+    },
+    "style_id": 223,
+    "aliases": {
+      "cn": "越南鼓",
+      "keyword": [
+        "vina",
+        "越南鼓"
+      ]
+    },
+    "category": "Genre",
+    "data_quality": "detailed"
+  },
+  {
+    "style_en": "Chinese_Bounce",
+    "style_cn": "中国Bounce混音版",
+    "bpm_min": 130,
+    "bpm_max": 145,
+    "beat_type": "4/4拍",
+    "kick_feature": "正拍厚重底鼓，强SubBass",
+    "timbre_feature": "中文流行切片，低频厚重",
+    "rhythm_feature": "底鼓为王，旋律次要",
+    "vocal_prop": 0.65,
+    "parent_category": "bounce",
+    "tags": [
+      "chinese bounce",
+      "中国bounce",
+      "中文DJ"
+    ],
+    "confidence_weight": 0.85,
+    "is_bar_common": true,
+    "spectral_profile": {
+      "sub_energy": 0.28,
+      "lf_energy": 0.4,
+      "lmf_energy": 0.15,
+      "mf_energy": 0.1,
+      "hmf_energy": 0.05,
+      "hf_energy": 0.02
+    },
+    "transient_profile": {
+      "global_transient": 0.82,
+      "kick_transient": 0.9,
+      "kick_transient_time_ms": 5
+    },
+    "distortion_profile": {
+      "distortion_snr_db": 14,
+      "distortion_focus_band": "60-200Hz"
+    },
+    "dynamic_profile": {
+      "peak_rms_ratio": 1.7,
+      "loudness_target_lufs": -9
+    },
+    "style_id": 220,
+    "aliases": {
+      "cn": "中国Bounce",
+      "keyword": [
+        "bounce",
+        "弹跳"
+      ]
+    },
+    "category": "Genre",
+    "data_quality": "detailed"
   }
 ]
