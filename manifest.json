@@ -1,19 +1,19 @@
-﻿{
-    "version":  "12.0.02",
-    "release_date":  "2026-09-20",
-    "software_version":  "v12.0.02",
-    "genre_db_version":  "2010-2026",
-    "total_genres":  22,
-    "total_work_types":  16,
-    "total_dj_platforms":  14,
-    "cdn_url":  "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main",
-    "files":  {
-                  "manifest":  "manifest.json",
-                  "data":  "data.json",
-                  "genres":  "genres.json",
-                  "dj_platforms":  "dj_platforms.json"
-              },
-    "changelog":  [
-                      "v12.0.01: New 22-genre 2010-2026 DJ database, sliding window segment analysis, mutual exclusion scoring, filename priority genre detection, hardware binding, feedback email system"
-                  ]
+{
+  "version": "12.0.02",
+  "release_date": "2026-09-20",
+  "software_version": "v12.0.02",
+  "genre_db_version": "2010-2026",
+  "total_genres": 211,
+  "total_work_types": 16,
+  "total_dj_platforms": 14,
+  "cdn_url": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main",
+  "files": {
+    "manifest": "manifest.json",
+    "data": "data.json",
+    "genres": "genres.json",
+    "dj_platforms": "dj_platforms.json"
+  },
+  "changelog": [
+    "v12.0.01: New 22-genre 2010-2026 DJ database, sliding window segment analysis, mutual exclusion scoring, filename priority genre detection, hardware binding, feedback email system"
+  ]
 }
