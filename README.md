@@ -1,89 +1,52 @@
-# MusicToolkit Pro Genre Database
+﻿# MusicToolkit Pro - Genre Database Update
 
-**Version:** v10.54
-**Release Date:** 2026-09-19
-**Total Entries:** 230 (214 Genres + 16 WorkTypes)
+## Version: v12.0.01 (2026-09-20)
 
----
+### Overview
+MusicToolkit Pro is a professional DJ audio analysis toolkit for Windows.
+This repository contains the genre database that the software automatically downloads via CDN.
 
-## 📦 What's New in v10.54
+### Genre Database (2010-2026)
+- **22 core DJ genres** covering 2010 EDM wave to 2026 current charts
+- **16 WorkTypes** (Remix / Mashup / Transition / Bootleg / Edit / VIP Mix / Instrumental / Acapella / Dub Mix / Radio Edit / Extended Mix / Rework / Re-Edit / Reconstruction Mix / Club Mix)
+- **14 DJ platforms** for track lookup and promotion
 
-### 🆕 New Analysis Modules
-- **DropDetector**: Detects Build-up → Drop explosion points using RMS + low-frequency energy gradient
-  - Outputs: has_drop, drop_confidence, drop_relative_time
-  - Drop confidence > 0.6 = high confidence, 0.45-0.6 = suspected
-  - Shows as 💥Drop in the status column
+### Supported Genres
+Bigroom House, Progressive House, Electro House, Melbourne Bounce, Chinese Bounce,
+Vina House, Hardstyle, Hard Bounce, Trance, Psytrance, Future Bass, EDM Trap,
+Dubstep, Tech House, Melodic Techno, Afro House, Amapiano, Drum and Bass,
+Hip Hop, Phonk, Thai Breakbeat, Deep House
 
-- **TimbreTagger**: Classifies timbre characteristics
-  - **BassHeavy**: Low-frequency ratio > 42% (Hardstyle, Bounce, Vina House)
-  - **Dark**: Spectral centroid < 1600Hz (Deep House, Dark Techno)
-  - **Bright**: Spectral centroid > 3200Hz (Trance, Melodic Pop)
-  - **Balanced**: Equal low/high frequency (General pop, House)
+### Key Features
+1. **Filename Priority Detection** - Genre keywords in filenames take highest priority
+2. **Sliding Window Segment Analysis** - Detects Mashup / multi-genre transitions
+3. **Mutual Exclusion Scoring** - Prevents Vina House vs Chinese Bounce confusion
+4. **BPM Auto-Halving** - DJ standard (Rekordbox/Serato convention)
+5. **LUFS Loudness + Dynamic Range** - EBU R128 standard
+6. **Vocal Detection** - Distinguishes Acapella / Instrumental
+7. **Drop Detection** - Identifies build-up → drop transitions
+8. **Timbre Tagging** - BassHeavy / Dark / Bright / Balanced
+9. **Hardware Binding** - Anti-copy protection
+10. **Feedback System** - User corrections emailed to developer for DB improvement
 
-### 🔧 CRITICAL FIX: Genre Bias Removal
-**Previous problem**: All unclear audio was defaulting to Vina House due to scoring bias.
+### CDN Auto-Update
+- Manifest: https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json
+- Data: https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/data.json
 
-**Root causes fixed:**
-1. ✅ **Removed confidence_weight × 2 multiplier** - Previously amplified high-weight genres
-2. ✅ **Normalized all 214 genres to equal weight (0.85)** - No genre gets built-in advantage
-3. ✅ **Removed duplicate vina_bounce entry** - Eliminated double-voting for Vina House
-4. ✅ **Narrowed Vina House BPM range** - From 126-145 to **132-142** (more specific, matches real Vina House)
-5. ✅ **Reduced confidence_weight impact in scoring** - Multiplied by 0.5 instead of flat bonus
+### Software Requirements
+- Windows 10/11
+- No Python required (standalone exe)
+- Auto-installs all dependencies
 
-**Result**: Genre classification is now purely based on audio feature matching (BPM, spectrum, dynamics, vocals). No genre has a "default win" advantage.
-
-### 📊 Analysis Pipeline (Complete)
-```
-Audio File
-├─ BPM Detection (multi-resolution)
-├─ Key Detection (Camelot wheel)
-├─ Genre Scoring (214 genres, equal weight)
-├─ WorkType Detection (16 types: Remix/Mashup/Acapella/etc.)
-├─ LUFS Loudness (EBU R128)
-├─ Dynamic Range (DR)
-├─ Vocal Detection (has_vocal + confidence)
-├─ Drop Detection 🆕 (has_drop + confidence + timestamp)
-└─ Timbre Tagging 🆕 (BassHeavy/Dark/Bright/Balanced)
-```
-
----
-
-## 📁 Repository Structure
-
-```
-Genres-Update/
-├── manifest.json      # Version info, checksums, changelog
-├── data.json          # Full genre database (230 entries)
-├── genres.json        # Same as data.json (backup copy)
-├── README.md          # This file
-└── verify_package.py  # Verification script
-```
-
----
-
-## 🔄 Auto-Update
-
-The software automatically checks for updates on startup via jsDelivr CDN:
-- Manifest: `https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json`
-- Data: `https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/data.json`
-
-**No user action required** - updates are downloaded and applied automatically.
-
----
-
-## 🔒 Security
-
-- All files verified with SHA256 checksum
-- CDN multi-source fallback: jsDelivr → GitHub Raw → Fastly
-- Only official sources allowed (cdn.jsdelivr.net, raw.githubusercontent.com)
-
----
-
-## 📝 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| v10.54 | 2026-09-19 | DropDetector + TimbreTagger + Genre bias fix |
-| v10.53 | 2026-09-19 | LUFS + Vocal detection + 9 new WorkTypes |
-| v10.52 | 2026-09-19 | AudioSegmentAnalyzer + Mashup detection |
-| v10.51 | 2026-09-18 | Initial 231-entry genre database |
+### Release Notes
+**v12.0.01 (2026-09-20)**
+- New 22-genre 2010-2026 database with quantitative audio features
+- Sliding window segment analysis for Mashup detection
+- Mutual exclusion scoring to reduce genre confusion
+- Filename-first genre detection (DJ file naming convention)
+- Hardware fingerprint binding (anti-copy)
+- Genre feedback collection (auto-email on app close)
+- M3U playlist export
+- DJ platform search (Beatport / SoundCloud / Traxsource)
+- 30000+ file treeview support
+- Full Chinese/English UI switch

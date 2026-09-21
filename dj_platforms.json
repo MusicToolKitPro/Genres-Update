@@ -1,0 +1,182 @@
+{
+  "dj_release_platforms": [
+    {
+      "platform_id": "BP001",
+      "platform_name": "Beatport",
+      "category": "专业DJ无损电音商店",
+      "primary_genres": ["House", "Progressive House", "Bigroom", "Hardstyle", "Bounce", "Trance", "Techno", "Vina House"],
+      "file_support": ["WAV", "AIFF"],
+      "upload_mode": "需厂牌/授权发行商投递，不可个人自助直传",
+      "meta_info": "提供BPM、调性、标准化电子曲风标签；全球夜店DJ核心采购源，拥有独立电音榜单",
+      "api_available": true,
+      "usage_scenario": "正式Original、官方Remix商业发行，行业权威认证",
+      "note": "曲风标签体系高度贴合夜店DJ场景，适合作为模型训练标签基准源"
+    },
+    {
+      "platform_id": "TR001",
+      "platform_name": "Traxsource",
+      "category": "专业DJ无损电音商店",
+      "primary_genres": ["House", "Deep House", "Soulful House", "Disco House"],
+      "file_support": ["WAV", "AIFF"],
+      "upload_mode": "厂牌/发行商投递",
+      "meta_info": "BPM、调性、曲风标签",
+      "api_available": true,
+      "usage_scenario": "地下House系作品商业售卖，欧美地下夜店圈",
+      "note": "偏向复古、灵魂向House，和Beatport曲风侧重不同"
+    },
+    {
+      "platform_id": "JD001",
+      "platform_name": "Junodownload",
+      "category": "专业DJ无损电音商店",
+      "primary_genres": ["Harddance", "Trance", "UK Garage", "Bass", "House"],
+      "file_support": ["WAV", "MP3"],
+      "upload_mode": "独立制作人/厂牌均可投递",
+      "meta_info": "BPM、曲风标签",
+      "api_available": false,
+      "usage_scenario": "欧洲独立电子舞曲发行",
+      "note": "曲风覆盖面广，小众Harddance资源丰富"
+    },
+    {
+      "platform_id": "BP002",
+      "platform_name": "BPM Supreme / BPM For Artists",
+      "category": "DJ订阅曲库 / 制作人推广平台",
+      "primary_genres": ["Vina House", "Chinese Bounce", "HipHop", "EDM", "Bounce"],
+      "file_support": ["WAV", "MP3"],
+      "upload_mode": "制作人自助上传",
+      "meta_info": "BPM、曲风标签，面向驻场DJ",
+      "api_available": false,
+      "usage_scenario": "夜店DJ试听下载，亚洲本土化舞曲推广",
+      "note": "大量东南亚、国内夜店Bounce/Vina样本，适合扩充训练集"
+    },
+    {
+      "platform_id": "LR001",
+      "platform_name": "LabelRadar",
+      "category": "Demo厂牌投稿平台",
+      "primary_genres": ["Hardstyle", "Bigroom", "Progressive House", "Trance", "EDM"],
+      "file_support": ["WAV", "MP3"],
+      "upload_mode": "制作人上传Demo定向投递厂牌A&R",
+      "meta_info": "支持附带BPM、曲风、调性元数据，接收厂牌反馈",
+      "api_available": false,
+      "usage_scenario": "投递Demo给Armada、Revealed、Anjunabeats等全球电音厂牌，Remix比赛",
+      "note": "获取未发行Demo素材来源，很多工程样曲"
+    },
+    {
+      "platform_id": "SH001",
+      "platform_name": "SubmitHub",
+      "category": "Demo投稿平台",
+      "primary_genres": ["全品类独立音乐，含电子、HipHop、流行"],
+      "file_support": ["MP3", "WAV"],
+      "upload_mode": "制作人自助上传，投递厂牌/博主/电台",
+      "meta_info": "基础BPM、曲风标签",
+      "api_available": false,
+      "usage_scenario": "获取点评、曝光，适合独立制作人",
+      "note": "通用音乐平台，电子只是其中一部分"
+    },
+    {
+      "platform_id": "SC001",
+      "platform_name": "SoundCloud",
+      "category": "DJ试听社区",
+      "primary_genres": ["全部电子曲风、Mashup、Bootleg、Demo、LiveSet"],
+      "file_support": ["WAV", "MP3"],
+      "upload_mode": "个人制作人自助上传",
+      "meta_info": "波形可视化、自定义标签，支持私人分享链接",
+      "api_available": true,
+      "usage_scenario": "首发Demo、Bootleg、Remix、Mashup，发给A&R试听",
+      "note": "大量分段BPM突变、Mashup混音素材，适合训练分段曲风检测；版权严格，未授权混音易下架"
+    },
+    {
+      "platform_id": "MC001",
+      "platform_name": "Mixcloud",
+      "category": "DJ Set混音社区",
+      "primary_genres": ["DJ Mix", "Transition Set", "Radio Show"],
+      "file_support": ["MP3"],
+      "upload_mode": "个人自助上传",
+      "meta_info": "支持标记曲目列表，长音频混音",
+      "api_available": false,
+      "usage_scenario": "发布完整1~3小时DJ长Set、连续Transition混音",
+      "note": "平台集体版权协议，长Mix不容易下架；无文件下载，非常适合训练多曲风连续切换检测模型"
+    },
+    {
+      "platform_id": "AM001",
+      "platform_name": "Audiomack",
+      "category": "独立音乐试听社区",
+      "primary_genres": ["Dance", "HipHop", "Trap", "Bounce", "Vina House"],
+      "file_support": ["WAV", "MP3"],
+      "upload_mode": "自助上传，支持粉丝下载",
+      "meta_info": "BPM、曲风标签",
+      "api_available": false,
+      "usage_scenario": "东南亚、非洲地区舞曲推广",
+      "note": "亚洲Bounce/Vina House流量高"
+    },
+    {
+      "platform_id": "DK001",
+      "platform_name": "DistroKid",
+      "category": "流媒体发行聚合商",
+      "primary_genres": ["全品类"],
+      "file_support": ["WAV"],
+      "upload_mode": "制作人自助上传，年费无限发行",
+      "meta_info": "自动生成ISRC，BPM、曲风、调性元数据",
+      "api_available": false,
+      "usage_scenario": "一键上架Spotify,Apple Music,TikTok,YouTube Music",
+      "note": "不自带Beatport发行权限，独立EDM制作人首选"
+    },
+    {
+      "platform_id": "SY001",
+      "platform_name": "Symphonic Distribution",
+      "category": "流媒体发行聚合商",
+      "primary_genres": ["全品类，重点电子舞曲"],
+      "file_support": ["WAV"],
+      "upload_mode": "制作人/厂牌投递",
+      "meta_info": "ISRC，完整音乐元数据",
+      "api_available": false,
+      "usage_scenario": "上架Spotify+Beatport双渠道",
+      "note": "少数支持投递Beatport的聚合服务商，电音圈常用"
+    },
+    {
+      "platform_id": "LW001",
+      "platform_name": "LabelWorx",
+      "category": "厂牌专用发行服务商",
+      "primary_genres": ["电子舞曲全风格"],
+      "file_support": ["WAV"],
+      "upload_mode": "厂牌对接",
+      "meta_info": "Beatport官方合作渠道，完整舞曲元数据",
+      "api_available": false,
+      "usage_scenario": "电音厂牌Beatport、Traxsource发行",
+      "note": "专业厂牌工具，不面向个人独立制作人"
+    },
+    {
+      "platform_id": "BC001",
+      "platform_name": "Bandcamp",
+      "category": "独立音乐人自主售卖平台",
+      "primary_genres": ["地下电子、独立音乐"],
+      "file_support": ["WAV", "FLAC", "MP3"],
+      "upload_mode": "制作人自助上架，自主定价",
+      "meta_info": "自定义曲风标签",
+      "api_available": false,
+      "usage_scenario": "直接向粉丝售卖单曲、EP、Remix包",
+      "note": "未授权Mashup/Bootleg禁止商业售卖"
+    },
+    {
+      "platform_id": "DJC001",
+      "platform_name": "DJCity / Heavy Hits / ZipDJ",
+      "category": "DJ订阅Promo曲库",
+      "primary_genres": ["夜店全风格，HipHop,EDM,Bounce,Vina House"],
+      "file_support": ["WAV", "MP3"],
+      "upload_mode": "厂牌上传预发行Promo版本",
+      "meta_info": "BPM、Camelot调性、曲风标签、DJ提示点",
+      "api_available": false,
+      "usage_scenario": "新歌预热，认证夜店DJ提前获取Promo单曲",
+      "note": "很多未发行预热版本，自带DJ元数据，贴近Rekordbox/Serato工作流"
+    }
+  ],
+  "system_note": {
+    "project": "MusicToolkit Pro",
+    "purpose": "DJ作品发布平台元数据库，辅助曲风模型训练与样本源筛选",
+    "copyright_remind": "Bootleg/Mashup/未授权混音仅可试听，禁止商业售卖；长DJ Mix优先采集Mixcloud，单曲电音标签优先参考Beatport",
+    "training_sample_suggest": {
+      "single_track_label_source": "Beatport,Traxsource",
+      "mashup_segment_train_source": "SoundCloud,Mixcloud",
+      "asia_club_style_sample_source": "BPM Supreme,Audiomack"
+    }
+  }
+}

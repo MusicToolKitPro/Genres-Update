@@ -1,74 +1,19 @@
-{
-  "name": "MusicToolkit Pro Genre Database",
-  "version": "v10.54",
-  "release_date": "2026-09-19",
-  "timestamp": "20260919_161149",
-  "total_genres": 211,
-  "total_work_types": 16,
-  "total_entries": 227,
-  "format_version": 3,
-  "min_app_version": "1.54.0",
-  "checksums": {
-    "data_json_md5": "6fa4e795c8cf6a16145401659893d5b5",
-    "data_json_sha256": "2e14b616a5d4edef30558692d11b559ee2b7a99b0c52014353f80a5e43b72808"
-  },
-  "file_sizes": {
-    "data_json": 242423
-  },
-  "work_types_all": [
-    "Remix",
-    "Bootleg",
-    "Mashup",
-    "Transition",
-    "Edit",
-    "Extended Mix",
-    "Original Mix",
-    "VIP Mix",
-    "Instrumental",
-    "Acapella",
-    "Dub Mix",
-    "Radio Edit",
-    "Rework",
-    "Re-Edit",
-    "Reconstruction Mix",
-    "Club Mix"
-  ],
-  "new_features_v10_54": [
-    "DropDetector module: Build-up to Drop explosion detection with confidence score",
-    "TimbreTagger module: BassHeavy / Dark / Bright / Balanced classification",
-    "Per-segment Drop detection time stamp for waveform marking",
-    "Spectral centroid + low-frequency ratio timbre analysis",
-    "All new analysis modules integrated into segment analysis pipeline"
-  ],
-  "improvements_v10_54": [
-    "CRITICAL FIX: Removed Vina House genre bias - all 214 genres now have equal confidence_weight (0.85)",
-    "Removed duplicate vina_bounce entry to prevent double-voting",
-    "Narrowed Vina House BPM range from 126-145 to 132-142 (more specific)",
-    "Removed confidence_weight x2 multiplier that favored high-weight genres",
-    "Reduced confidence_weight impact in scoring loop (multiplied by 0.5)",
-    "Genre scoring now purely based on audio feature matching, no built-in genre advantage",
-    "Fixed WorkType entries being included in genre scoring (filtered out)",
-    "Drop detection shows as 💥Drop in status column",
-    "Timbre tag shown in right info panel"
-  ],
-  "cdn_urls": {
-    "manifest": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/manifest.json",
-    "data": "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main/data.json"
-  },
-  "update_instructions": {
-    "type": "full_replace",
-    "target": "scripts/genres.json",
-    "backup_required": true,
-    "restart_required": true,
-    "verify_sha256": true
-  },
-  "security": {
-    "signature": "sha256",
-    "verification": "data_json_sha256 must match manifest",
-    "allowed_sources": [
-      "cdn.jsdelivr.net",
-      "raw.githubusercontent.com",
-      "gist.githubusercontent.com"
-    ]
-  }
+﻿{
+    "version":  "12.0.02",
+    "release_date":  "2026-09-20",
+    "software_version":  "v12.0.02",
+    "genre_db_version":  "2010-2026",
+    "total_genres":  22,
+    "total_work_types":  16,
+    "total_dj_platforms":  14,
+    "cdn_url":  "https://cdn.jsdelivr.net/gh/MusicToolKitPro/Genres-Update@main",
+    "files":  {
+                  "manifest":  "manifest.json",
+                  "data":  "data.json",
+                  "genres":  "genres.json",
+                  "dj_platforms":  "dj_platforms.json"
+              },
+    "changelog":  [
+                      "v12.0.01: New 22-genre 2010-2026 DJ database, sliding window segment analysis, mutual exclusion scoring, filename priority genre detection, hardware binding, feedback email system"
+                  ]
 }

@@ -27,56 +27,37 @@
     "aliases": {}
   },
   {
-    "style_id": 192,
-    "style_cn": "Afro House 非洲浩室",
-    "style_en": "afro_house",
+    "genre_id": "G016",
+    "genre_name": "Afro House",
+    "genre_cn": "非洲浩室",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 118,
     "bpm_max": 126,
-    "beat_type": "4/4拍，four-on-the-floor + 多层非洲复节奏打击乐",
-    "kick_feature": "紧实干净house底鼓，起音中等，低频有力；搭配大量非洲手鼓、康加鼓、牛铃多层打击；底鼓干净失真低，与民族打击乐分层",
-    "timbre_feature": "有机原声打击、灵魂人声、温暖Pad；少量非洲民族乐器采样；音色明亮温暖，律动性极强，氛围感浓厚",
-    "rhythm_feature": "4/4主底鼓叠加多层跨拍复节奏；律动摇摆；渐进式编排，Build平缓，Drop是律动释放而非爆发；节奏层次丰富",
-    "vocal_prop": "中高",
-    "parent_category": "house",
-    "tags": [
-      "afro house",
-      "african house",
-      "organic percussion",
-      "polyrhythm",
-      "soul vocal"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.28,
-      "lf_energy": 0.27,
-      "lmf_energy": 0.14,
-      "mf_energy": 0.16,
-      "hmf_energy": 0.11,
-      "hf_energy": 0.04,
-      "band_note": "Sub充足；MF/HF大量民族打击乐细节；频谱丰富有机"
+    "bpm_core": 122,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.62,
-      "kick_transient": 0.71,
-      "kick_transient_time_ms": 10,
-      "note": "底鼓瞬态中等；多层打击乐持续产生丰富细碎瞬态"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 20,
-      "distortion_focus_band": "none",
-      "note": "整体干净，少量底鼓轻微饱和"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.0,
-      "loudness_target_lufs": -9,
-      "note": "动态中等，依靠打击乐层次制造情绪起伏"
-    },
-    "aliases": {
-      "cn": "非洲浩室",
-      "jp": "アフロハウス"
-    },
-    "data_quality": "detailed"
+    "timbre_tag": "Balanced",
+    "vocal_feature": "African percussion layers, soul vocals",
+    "drop_feature": "African percussion layers, soul vocals",
+    "arrangement": "2019-2026",
+    "distinguish_rule": "BPM118-126(+30), African percussion(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "贝斯线浩室",
@@ -107,34 +88,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "大房间浩室",
-    "style_en": "big_room_house",
+    "genre_id": "G001",
+    "genre_name": "Bigroom House",
+    "genre_cn": "Bigroom",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 126,
     "bpm_max": 132,
-    "beat_type": "4/4拍",
-    "kick_feature": "超大混响底鼓，底鼓响度极高，空间感强",
-    "timbre_feature": "宽立体声合成器，简单重复主旋律，大混响",
-    "rhythm_feature": "长build up，爆发式drop，极简节奏",
-    "vocal_prop": 0.2,
-    "parent_category": "house",
-    "tags": [
-      "house",
-      "bigroom",
-      "festival",
-      "reverb kick"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 4,
-    "aliases": {
-      "cn": "大房间浩室",
-      "jp": "ビッグルーム"
-    }
+    "bpm_core": 129,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Long build-up, supersaw, hard sidechain",
+    "drop_feature": "Long build-up, supersaw, hard sidechain",
+    "arrangement": "2010-2018 peak, ongoing in 2026",
+    "distinguish_rule": "BPM126-132(+30), Supersaw(+35), sidechain(+20)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "博客浩室/电气碰撞",
@@ -250,36 +234,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "深浩室",
-    "style_en": "deep_house",
-    "bpm_min": 115,
+    "genre_id": "G022",
+    "genre_name": "Deep House",
+    "genre_cn": "深浩室",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 120,
     "bpm_max": 125,
-    "beat_type": "4/4拍",
-    "kick_feature": "圆润低沉底鼓，力度柔和，压缩强，低频干净",
-    "timbre_feature": "温暖氛围感，柔和合成器垫音，圆润Sub Bass，少尖锐高频",
-    "rhythm_feature": "稳定平滑律动，律动偏松弛，无剧烈drop",
-    "vocal_prop": 0.3,
-    "parent_category": "house",
-    "tags": [
-      "house",
-      "4/4",
-      "warm",
-      "ambient",
-      "subbass",
-      "warm pad"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 9,
-    "aliases": {
-      "cn": "深浩室",
-      "jp": "ディープハウス"
-    }
+    "bpm_core": 122,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Warm round bass, soul vocal, soft pads",
+    "drop_feature": "Warm round bass, soul vocal, soft pads",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM120-125(+30), warm bass(+30)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "唐克/利物浦浩室",
@@ -338,34 +323,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "电气浩室",
-    "style_en": "electro_house",
-    "bpm_min": 125,
-    "bpm_max": 132,
-    "beat_type": "4/4拍",
-    "kick_feature": "厚重饱满底鼓，drop段底鼓能量拉升",
-    "timbre_feature": "粗粝锯齿合成器，肥厚主音，高频明亮",
-    "rhythm_feature": "段落分明build+drop，强重拍",
-    "vocal_prop": 0.4,
-    "parent_category": "house",
-    "tags": [
-      "house",
-      "edm",
-      "syth lead",
-      "big drop"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 12,
-    "aliases": {
-      "cn": "电气浩室",
-      "jp": "エレクトロハウス"
-    }
+    "genre_id": "G003",
+    "genre_name": "Electro House",
+    "genre_cn": "Electro",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 124,
+    "bpm_max": 130,
+    "bpm_core": 127,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Distorted synth stabs, midrange bass",
+    "drop_feature": "Distorted synth stabs, midrange bass",
+    "arrangement": "2010-2016 peak, ongoing",
+    "distinguish_rule": "BPM124-130(+25), distorted stab(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "躁动浩室",
@@ -765,34 +753,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "前卫浩室",
-    "style_en": "progressive_house",
-    "bpm_min": 128,
-    "bpm_max": 134,
-    "beat_type": "4/4拍",
-    "kick_feature": "平稳扎实底鼓，渐进式音量变化",
-    "timbre_feature": "缓慢演化的垫音，绵长旋律，立体声宽广",
-    "rhythm_feature": "层层递进，长时间铺垫，平缓起伏",
-    "vocal_prop": 0.4,
-    "parent_category": "house",
-    "tags": [
-      "house",
-      "progressive",
-      "long build",
-      "melodic pad"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 27,
-    "aliases": {
-      "cn": "前卫浩室",
-      "jp": "プログレッシブハウス"
-    }
+    "genre_id": "G002",
+    "genre_name": "Progressive House",
+    "genre_cn": "Prog House",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 122,
+    "bpm_max": 130,
+    "bpm_core": 126,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Evolving pads, gradual build, melodic narrative",
+    "drop_feature": "Evolving pads, gradual build, melodic narrative",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM122-130(+25), slow evolution(+35)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "灵魂浩室",
@@ -852,35 +843,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "科技浩室",
-    "style_en": "tech_house",
-    "bpm_min": 122,
-    "bpm_max": 130,
-    "beat_type": "4/4拍",
-    "kick_feature": "紧实干净底鼓，底鼓和贝斯分离度高",
-    "timbre_feature": "极简合成器，金属质感打击音色，少长旋律垫音",
-    "rhythm_feature": "稳定groove，大量打击乐切分，循环短采样",
-    "vocal_prop": 0.2,
-    "parent_category": "house",
-    "tags": [
-      "house",
-      "tech",
-      "groove",
-      "minimal",
-      "clean kick"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 30,
-    "aliases": {
-      "cn": "科技浩室",
-      "jp": "テックハウス"
-    }
+    "genre_id": "G014",
+    "genre_name": "Tech House",
+    "genre_cn": "科技浩室",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 126,
+    "bpm_max": 134,
+    "bpm_core": 130,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Groovy rolling bass, short vocal chops, minimal loop",
+    "drop_feature": "Groovy rolling bass, short vocal chops, minimal loop",
+    "arrangement": "2015-2026",
+    "distinguish_rule": "BPM126-134(+30), groovy bass(+35), vocal chop(+15)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "部落浩室",
@@ -937,55 +930,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "硬弹跳 Hard Bounce",
-    "style_en": "hard_bounce",
-    "bpm_min": 140,
-    "bpm_max": 150,
-    "beat_type": "4/4拍，反拍律动",
-    "kick_feature": "硬质感短促底鼓，底鼓起音锐利，低频压缩极强；底鼓与反拍合成器强绑定，底鼓尾音短，几乎无长混响，冲击感集中在起音，drop段落底鼓响度大幅抬升；底鼓和贝斯分离度中等，贝斯依附底鼓同步发力",
-    "timbre_feature": "粗硬锯齿/方波合成器，音色明亮尖锐；合成器主音多为简短循环旋律，高频能量突出；Sub Bass肥厚但不拖沓；打击乐音色短促，大量金属质感打击采样；Pad垫音极少，音色干净粗暴，少氛围感长音",
-    "rhythm_feature": "核心为反拍弹跳律动，2、4拍放置合成器弹跳音；段落结构：Intro → Build-up（逐步叠加踩镲上升、鼓加速）→ Drop（强弹跳循环）；律动重复度高，节奏规整，极少复杂切分；Build-up常用上升白噪音、鼓滚奏铺垫；Drop段落保持稳定固定groove，动态起伏大，段落边界清晰",
-    "vocal_prop": 0.2,
-    "parent_category": "bounce",
-    "tags": [
-      "bounce",
-      "hard_bounce",
-      "heavy kick",
-      "offbeat synth",
-      "sharp transient",
-      "commercial club",
-      "party bounce"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.22,
-      "lf_energy": 0.3,
-      "lmf_energy": 0.18,
-      "mf_energy": 0.12,
-      "hmf_energy": 0.13,
-      "hf_energy": 0.05,
-      "band_note": "LF能量最高；HF集中在短促合成器反拍，高频尖锐但能量不持续；Sub肥厚但不膨胀；LMF控制较低避免浑浊"
+    "genre_id": "G008",
+    "genre_name": "Hard Bounce",
+    "genre_cn": "硬弹跳",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 145,
+    "bpm_max": 152,
+    "bpm_core": 148,
+    "rhythm_pattern": "4/4 off-beat",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.78,
-      "kick_transient": 0.88,
-      "kick_transient_time_ms": 6,
-      "note": "底鼓起音极快；反拍合成器瞬态强；pad几乎无瞬态"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 18,
-      "distortion_focus_band": "80–220Hz",
-      "note": "轻度失真；失真集中在底鼓LF，没有Reverse Bass的调制失真；合成器是方波锯齿硬削波，不是低频扭曲失真"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.6,
-      "loudness_target_lufs": -7,
-      "note": "商业压缩很重，动态范围窄；Drop与Intro响度差距大"
-    },
-    "data_quality": "detailed",
-    "style_id": 34,
-    "aliases": {}
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Hardstyle kick + bounce off-beat donk",
+    "drop_feature": "Hardstyle kick + bounce off-beat donk",
+    "arrangement": "2018-2026",
+    "distinguish_rule": "BPM145-152(+30), distorted kick+donk(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "韩国弹跳 K-Bounce",
@@ -1015,30 +990,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "墨尔本弹跳 Melbourne Bounce",
-    "style_en": "melbourne_bounce",
-    "bpm_min": 128,
-    "bpm_max": 140,
-    "beat_type": "4/4拍",
-    "kick_feature": "中等力度底鼓，标志性反拍嘟嘟合成器",
-    "timbre_feature": "标志性Off-beat锯齿主音，明亮",
-    "rhythm_feature": "经典反拍嘟嘟旋律，弹跳循环",
-    "vocal_prop": 0.2,
-    "parent_category": "bounce",
-    "tags": [
-      "bounce",
-      "melbourne bounce",
-      "offbeat synth"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 36,
-    "aliases": {}
+    "genre_id": "G004",
+    "genre_name": "Melbourne Bounce",
+    "genre_cn": "墨尔本弹跳",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 125,
+    "bpm_max": 130,
+    "bpm_core": 127,
+    "rhythm_pattern": "4/4 off-beat",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Off-beat donk rubber bass on beats 2 and 4",
+    "drop_feature": "Off-beat donk rubber bass on beats 2 and 4",
+    "arrangement": "2012-2020 peak, ongoing in Asia",
+    "distinguish_rule": "BPM125-130(+25), off-beat donk(+45)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "硬Techno(90年代复古)",
@@ -1325,57 +1307,37 @@
     }
   },
   {
-    "style_id": 189,
-    "style_cn": "Melodic Techno 旋律科技",
-    "style_en": "melodic_techno",
+    "genre_id": "G015",
+    "genre_name": "Melodic Techno",
+    "genre_cn": "旋律科技",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 122,
     "bpm_max": 130,
-    "beat_type": "4/4拍，稳定four-on-the-floor底鼓",
-    "kick_feature": "干净紧实底鼓，起音中等，低频稳定，轻微中频打击，失真极低；底鼓轮廓顺滑，不肥厚，与合成器分离度高",
-    "timbre_feature": "绵长氛围感Pad，缓慢演化的锯齿琶音，深沉忧郁合成器主旋律；音色空间感巨大，混响量大，偏暗冷色调；低频沉稳，中高频空灵",
-    "rhythm_feature": "长段落渐进式编排，极长Build-up；依靠滤波、白噪缓慢爬升；Drop冲击力温和，不靠爆发，靠律动沉浸；律动催眠、循环感极强；很少大量切分停顿",
-    "vocal_prop": "低",
-    "parent_category": "techno",
-    "tags": [
-      "melodic techno",
-      "techno",
-      "afterlife",
-      "long pad",
-      "hypnotic groove",
-      "euphoric dark"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.27,
-      "lf_energy": 0.26,
-      "lmf_energy": 0.13,
-      "mf_energy": 0.14,
-      "hmf_energy": 0.15,
-      "hf_energy": 0.05,
-      "band_note": "Sub与LF均衡；HMF承载空灵Pad与琶音；频谱平滑，瞬态峰值少"
+    "bpm_core": 126,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.5,
-      "kick_transient": 0.63,
-      "kick_transient_time_ms": 10,
-      "note": "全局瞬态偏弱，底鼓冲击柔和；大量稳态Pad带来持续频谱"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 21,
-      "distortion_focus_band": "none",
-      "note": "整体干净，仅少量合成器轻微饱和失真"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.2,
-      "loudness_target_lufs": -9,
-      "note": "动态范围大，段落缓慢升降，Drop响度提升平缓"
-    },
-    "aliases": {
-      "cn": "旋律科技",
-      "jp": "メロディックテクノ"
-    },
-    "data_quality": "detailed"
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Cinematic pads, slow evolution, minimal drums",
+    "drop_feature": "Cinematic pads, slow evolution, minimal drums",
+    "arrangement": "2018-2026",
+    "distinguish_rule": "BPM122-130(+25), cinematic pad(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "极简Techno",
@@ -1718,30 +1680,37 @@
     }
   },
   {
-    "style_cn": "迷幻出神 Psy Trance",
-    "style_en": "psy_trance",
-    "bpm_min": 138,
+    "genre_id": "G010",
+    "genre_name": "Psytrance",
+    "genre_cn": "Psy",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 140,
     "bpm_max": 148,
-    "beat_type": "4/4拍",
-    "kick_feature": "紧实底鼓，持续律动",
-    "timbre_feature": "旋转扭动滤波合成器，迷幻纹理音色",
-    "rhythm_feature": "循环psy律动，音色持续变化",
-    "vocal_prop": 0.1,
-    "parent_category": "trance",
-    "tags": [
-      "trance",
-      "psychedelic",
-      "psy lead"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 59,
-    "aliases": {}
+    "bpm_core": 144,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Rolling filtered pluck, hypnotic groove",
+    "drop_feature": "Rolling filtered pluck, hypnotic groove",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM140-148(+25), rolling filter(+45)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "科技Trance",
@@ -1861,146 +1830,136 @@
     }
   },
   {
-    "style_cn": "鼓打贝斯 DnB",
-    "style_en": "drum_and_bass",
-    "bpm_min": 160,
-    "bpm_max": 175,
-    "beat_type": "碎拍",
-    "kick_feature": "快速轻底鼓，大量快速军鼓/踩镲",
-    "timbre_feature": "快速贝斯线条，高速打击乐",
-    "rhythm_feature": "高速碎拍，复杂鼓组滚奏",
-    "vocal_prop": 0.2,
-    "parent_category": "bass_music",
-    "tags": [
-      "bass",
-      "dnb",
-      "breakbeat fast"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 64,
-    "aliases": {
-      "cn": "鼓打贝斯",
-      "jp": "ドラムンベース",
-      "kr": "드럼앤베이스"
-    }
+    "genre_id": "G018",
+    "genre_name": "Drum and Bass",
+    "genre_cn": "DnB",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 170,
+    "bpm_max": 180,
+    "bpm_core": 175,
+    "rhythm_pattern": "Breakbeat",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Fast breakbeat, deep sub bass",
+    "drop_feature": "Fast breakbeat, deep sub bass",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM170-180(+40), breakbeat(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
-    "style_cn": "回响贝斯 Dubstep",
-    "style_en": "dubstep",
-    "bpm_min": 138,
-    "bpm_max": 142,
-    "beat_type": "2/4半拍律动",
-    "kick_feature": "低频厚重底鼓，底鼓不密集，重拍间隔大",
-    "timbre_feature": "扭曲Wobble贝斯，动态剧烈",
-    "rhythm_feature": "半拍顿挫律动，wobble贝斯变化",
-    "vocal_prop": 0.2,
-    "parent_category": "bass_music",
-    "tags": [
-      "bass",
-      "dubstep",
-      "wobble bass"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 65,
-    "aliases": {
-      "cn": "回响贝斯",
-      "jp": "ダブステップ",
-      "kr": "덥스텝"
-    }
-  },
-  {
-    "style_id": 197,
-    "style_cn": "EDM Trap 电子陷阱",
-    "style_en": "edm_trap",
+    "genre_id": "G013",
+    "genre_name": "Dubstep",
+    "genre_cn": "Melodic Dubstep",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 140,
     "bpm_max": 150,
-    "beat_type": "Half-time半拍律动，808鼓组，快速滚奏踩镲",
-    "kick_feature": "808超低频底鼓，两拍一次重底鼓；短促军鼓；极快16/32分音符踩镲滚奏；底鼓低频肥厚",
-    "timbre_feature": "808贝斯，尖锐合成器主音；铜管音色、打击音效；旋律简短有力，派对感强",
-    "rhythm_feature": "半拍律动，体感速度减半；Build依靠踩镲加速；Drop重拍爆发力强；大量停顿切分；全球夜店热门",
-    "vocal_prop": "中",
-    "parent_category": "trap",
-    "tags": [
-      "edm trap",
-      "trap",
-      "808 bass",
-      "fast hihat",
-      "half time"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.31,
-      "lf_energy": 0.28,
-      "lmf_energy": 0.17,
-      "mf_energy": 0.1,
-      "hmf_energy": 0.1,
-      "hf_energy": 0.04,
-      "band_note": "Sub能量高；高频快速踩镲提供识别特征"
+    "bpm_core": 145,
+    "rhythm_pattern": "Half-time",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.77,
-      "kick_transient": 0.85,
-      "kick_transient_time_ms": 7,
-      "note": "底鼓单次冲击强；高速踩镲带来持续高频瞬态"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 10,
-      "distortion_focus_band": "60–200Hz",
-      "note": "808贝斯轻度失真，合成器带饱和"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.6,
-      "loudness_target_lufs": -7,
-      "note": "高压缩，Drop响度拉满，停顿制造响度落差"
-    },
-    "aliases": {
-      "cn": "电子陷阱",
-      "jp": "EDMトラップ"
-    },
-    "data_quality": "detailed"
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Wobble bass, melodic pads",
+    "drop_feature": "Wobble bass, melodic pads",
+    "arrangement": "2010-2018 peak, ongoing",
+    "distinguish_rule": "BPM140-150(+20), half-time(+25), wobble(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
-    "style_cn": "未来贝斯 Future Bass",
-    "style_en": "future_bass",
-    "bpm_min": 130,
+    "genre_id": "G012",
+    "genre_name": "EDM Trap",
+    "genre_cn": "Festival Trap",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 138,
     "bpm_max": 150,
-    "beat_type": "4/4拍",
-    "kick_feature": "中等力度底鼓，drop段底鼓+和弦堆叠",
-    "timbre_feature": "柔软锯齿合成器，大宽立体声和弦",
-    "rhythm_feature": "build up后和弦冲击，切分旋律",
-    "vocal_prop": 0.7,
-    "parent_category": "bass_music",
-    "tags": [
-      "bass",
-      "future bass",
-      "chord stack",
-      "edm pop"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 67,
-    "aliases": {
-      "cn": "未来贝斯",
-      "jp": "フューチャーベース"
-    }
+    "bpm_core": 144,
+    "rhythm_pattern": "Half-time",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "808 sub, fast hi-hats, snare rolls",
+    "drop_feature": "808 sub, fast hi-hats, snare rolls",
+    "arrangement": "2012-2026",
+    "distinguish_rule": "BPM138-150(+25), half-time(+30), 808+hihat(+30)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
+  },
+  {
+    "genre_id": "G011",
+    "genre_name": "Future Bass",
+    "genre_cn": "未来贝斯",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 130,
+    "bpm_max": 160,
+    "bpm_core": 145,
+    "rhythm_pattern": "Half-time",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Detuned supersaw chords, vocal chops, half-time",
+    "drop_feature": "Detuned supersaw chords, vocal chops, half-time",
+    "arrangement": "2013-2020 peak, ongoing",
+    "distinguish_rule": "BPM130-160(+20), half-time(+30), detuned chords(+30)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "穆巴顿 Moombahton",
@@ -2110,60 +2069,37 @@
     }
   },
   {
-    "style_cn": "Hardstyle 硬派",
-    "style_en": "hardstyle",
-    "bpm_min": 145,
+    "genre_id": "G007",
+    "genre_name": "Hardstyle",
+    "genre_cn": "硬派",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 150,
     "bpm_max": 160,
-    "beat_type": "4/4拍，标志性反拍失真底鼓",
-    "kick_feature": "标志性失真反向底鼓（Reverse Bass Kick）；底鼓起音厚重，拥有极强失真谐波，低频+中低频同时爆发；底鼓本身自带扭曲失真音色，是曲风最核心识别特征；底鼓混响中等，长衰减，每一拍底鼓占据频谱大量空间；底鼓与反拍贝斯融合在一起，很难完全分离；Build-up阶段底鼓常静音，只保留上升音效，Drop时底鼓全力爆发",
-    "timbre_feature": "粗砺失真主音合成器，音色宽广宏大；旋律多为史诗感长线条旋律，高频明亮；常搭配大空间混响Pad；Reverse Bass反向贝斯是标志性音色；打击乐厚重，军鼓带有大混响；频谱特征：中低频失真能量极高，高频旋律开阔，中频密度大",
-    "rhythm_feature": "4/4规整节拍，每一拍带失真底鼓，反拍搭配reverse bass；标准结构：Intro → Build-up（鼓滚奏、白噪音上升、旋律爬升）→ Drop；旋律段落较长，律动稳定持续；相比Hard Bounce，Hardstyle旋律更长、更史诗，不是短促循环；节奏变化集中在段落切换，Drop内部律动几乎不变；部分版本会加入短break段落制造反差",
-    "vocal_prop": 0.3,
-    "parent_category": "hardstyle",
-    "tags": [
-      "hardstyle",
-      "reverse bass",
-      "distorted kick",
-      "epic melody",
-      "rave",
-      "festival",
-      "hard dance"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.28,
-      "lf_energy": 0.38,
-      "lmf_energy": 0.14,
-      "mf_energy": 0.08,
-      "hmf_energy": 0.08,
-      "hf_energy": 0.04,
-      "band_note": "LF占绝对主导；Reverse Bass在80–180Hz产生周期性幅度调制；旋律主要落在HMF/HF；LMF压低，防止底鼓浑浊"
+    "bpm_core": 155,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.72,
-      "kick_transient": 0.82,
-      "kick_transient_time_ms": 9,
-      "note": "底鼓起音略慢于Hard Bounce；底鼓尾音带有reverse bass的音量包络调制，是核心特征"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 12,
-      "distortion_focus_band": "60–200Hz",
-      "note": "中重度失真；失真绑定底鼓+反向贝斯，每一拍伴随低频扭曲谐波，这是区分Hardstyle与Hard Bounce的最强特征"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.8,
-      "loudness_target_lufs": -8,
-      "note": "压缩强；Build-up和Drop响度差巨大；Drop低频能量周期性波动来自reverse bass"
-    },
-    "data_quality": "detailed",
-    "style_id": 71,
-    "aliases": {
-      "cn": "硬派",
-      "jp": "ハードスタイル",
-      "nl": "Hardstyle",
-      "de": "Hardstyle"
-    }
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Pitch distorted kick, reverse bass",
+    "drop_feature": "Pitch distorted kick, reverse bass",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM150-160(+35), distorted kick(+45)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "旋律硬派 Melodic Hardstyle",
@@ -3944,58 +3880,37 @@
     "aliases": {}
   },
   {
-    "style_id": 191,
-    "style_cn": "Amapiano 阿马皮亚诺",
-    "style_en": "amapiano",
+    "genre_id": "G017",
+    "genre_name": "Amapiano",
+    "genre_cn": "南非钢琴",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 108,
     "bpm_max": 116,
-    "beat_type": "4/4拍，LogDrum标志性低频，多复节奏打击乐",
-    "kick_feature": "标志性LogDrum底鼓，低频深沉厚重，起音缓慢，弹性悠长；底鼓音色像原木敲击；干净低失真，和多层非洲打击乐叠加",
-    "timbre_feature": "温暖爵士钢琴和弦、非洲手鼓、沙锤、铃铛；柔和合成器Pad；旋律舒缓，和声色彩丰富；音色有机、温暖、松弛",
-    "rhythm_feature": "多重复节奏叠加，不是简单四拍驱动；律动慵懒松弛；长循环钢琴动机；段落缓慢演进，几乎没有剧烈Drop爆发；适合暖场",
-    "vocal_prop": "中",
-    "parent_category": "african_club",
-    "tags": [
-      "amapiano",
-      "south africa",
-      "log drum",
-      "african percussion",
-      "piano chords",
-      "organic house"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.34,
-      "lf_energy": 0.25,
-      "lmf_energy": 0.12,
-      "mf_energy": 0.15,
-      "hmf_energy": 0.1,
-      "hf_energy": 0.04,
-      "band_note": "Sub能量极高，LogDrum核心识别；MF承载钢琴和弦；高频是细碎打击乐"
+    "bpm_core": 112,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.48,
-      "kick_transient": 0.54,
-      "kick_transient_time_ms": 16,
-      "note": "底鼓起音缓慢，瞬态偏弱；细碎打击乐带来少量高频瞬态"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 22,
-      "distortion_focus_band": "none",
-      "note": "几乎无失真，天然有机音色"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.3,
-      "loudness_target_lufs": -10,
-      "note": "动态范围较大，整体响度偏低，松弛暖场质感"
-    },
-    "aliases": {
-      "cn": "阿马皮亚诺",
-      "jp": "アマピアノ",
-      "za": "Amapiano"
-    },
-    "data_quality": "detailed"
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Log drum, piano chords, shaker rhythm",
+    "drop_feature": "Log drum, piano chords, shaker rhythm",
+    "arrangement": "2020-2026",
+    "distinguish_rule": "BPM108-116(+35), log drum(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "巴恰塔 Bachata",
@@ -4242,31 +4157,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "嘻哈 HipHop",
-    "style_en": "hiphop",
+    "genre_id": "G019",
+    "genre_name": "Hip Hop",
+    "genre_cn": "Rap",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 75,
     "bpm_max": 100,
-    "beat_type": "4/4嘻哈拍",
-    "kick_feature": "808底鼓，低频饱满，鼓组松弛",
-    "timbre_feature": "采样乐器，钢琴，简单合成器",
-    "rhythm_feature": "嘻哈摇摆律动，鼓组切分",
-    "vocal_prop": 0.8,
-    "parent_category": "urban",
-    "tags": [
-      "urban",
-      "hiphop",
-      "rap",
-      "808"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 137,
-    "aliases": {}
+    "bpm_core": 87,
+    "rhythm_pattern": "Half-time",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Rap vocal dominant, 808, swung drums",
+    "drop_feature": "Rap vocal dominant, 808, swung drums",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM75-100(+30), rap vocal(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "Hyphy",
@@ -4391,36 +4312,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "Phonk",
-    "style_en": "phonk",
-    "bpm_min": 130,
-    "bpm_max": 170,
-    "beat_type": "嘻哈拍/半拍",
-    "kick_feature": "厚重808底鼓，cowbell采样",
-    "timbre_feature": "孟菲斯说唱采样，暗黑恐怖，cowbell，低保真",
-    "rhythm_feature": "暗黑半拍律动，cowbell节奏，漂移/恐怖氛围",
-    "vocal_prop": 0.4,
-    "parent_category": "urban",
-    "tags": [
-      "urban",
-      "phonk",
-      "memphis",
-      "cowbell",
-      "dark",
-      "drift",
-      "lofi",
-      "808",
-      "phonk drift"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": null,
-    "transient_profile": null,
-    "distortion_profile": null,
-    "dynamic_profile": null,
-    "data_quality": "basic",
-    "style_id": 142,
-    "aliases": {}
+    "genre_id": "G020",
+    "genre_name": "Phonk",
+    "genre_cn": "Drift Phonk",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 110,
+    "bpm_max": 150,
+    "bpm_core": 130,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
+    },
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
+    },
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Cowbell, distorted 808, chopped vocals",
+    "drop_feature": "Cowbell, distorted 808, chopped vocals",
+    "arrangement": "2020-2026",
+    "distinguish_rule": "BPM110-150(+20), cowbell+808(+45)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_cn": "说唱Trap",
@@ -5637,79 +5559,37 @@
     "aliases": {}
   },
   {
-    "style_cn": "泰国鼓 Thai Breakbeat（泰鼓摇/Thaibeat）",
-    "style_en": "thai_breakbeat",
-    "bpm_min": 138,
-    "bpm_max": 155,
-    "beat_type": "碎拍(Breakbeat)，非规整4/4，鼓组切片重组；常融合泰国3-cha三步舞节奏",
-    "kick_feature": "底鼓短促有力，碎拍模式下底鼓不连续，重拍间隔不规则；底鼓低频饱满但不拖沓；与碎拍军鼓/踩镲交织，形成跳跃感；部分曲目底鼓带有轻度失真增强冲击力；底鼓起音快，尾音短，为碎拍切分留出空间",
-    "timbre_feature": "泰国传统音乐元素融合——mor lam(泰国东北部民歌)旋律、luk thung(泰国乡村流行)调式、五声音阶；常采样泰国传统乐器：pi(泰国唢呐)、khlui(泰笛)、chakhe(鳄鱼琴)、木鱼；明亮合成器主旋律，碎拍贝斯线；泰国童声/流行歌曲人声混音；整体音色带有东南亚热带质感，明亮且带有民间音乐色彩",
-    "rhythm_feature": "核心为Breakbeat碎拍律动——鼓组切片重组，非规整4/4，重拍偏移；融合泰国3-cha(三步舞)节奏型，形成独特的三拍感切分；结构：Intro → Build → Drop → Break → 第二Drop → Outro；Drop段落碎拍律动稳定循环，旋律重复抓耳；鼓组滚奏和切片变化丰富；比Vina House节奏更碎、更跳跃，底鼓不连续",
-    "vocal_prop": 0.7,
-    "parent_category": "breakbeat",
-    "tags": [
-      "thai breakbeat",
-      "thaibeat",
-      "泰鼓摇",
-      "thailand",
-      "breakbeat",
-      "3-cha",
-      "mor lam",
-      "luk thung",
-      "五声音阶",
-      "southeast asia",
-      "thai folk",
-      "童声remix"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.2,
-      "lf_energy": 0.26,
-      "lmf_energy": 0.18,
-      "mf_energy": 0.16,
-      "hmf_energy": 0.14,
-      "hf_energy": 0.06,
-      "band_note": "碎拍模式下LF能量分布比4/4拍更分散；MF/HMF承载泰国传统乐器采样和明亮主旋律；Sub适度，碎拍切分需要低频空间"
+    "genre_id": "G021",
+    "genre_name": "Thai Breakbeat",
+    "genre_cn": "泰国鼓",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 130,
+    "bpm_max": 140,
+    "bpm_core": 135,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.78,
-      "kick_transient": 0.82,
-      "kick_transient_time_ms": 6,
-      "note": "碎拍带来丰富瞬态变化；底鼓和军鼓切片瞬态强；泰国打击乐采样增加瞬态密度"
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 15,
-      "distortion_focus_band": "80–220Hz",
-      "note": "轻中度失真，部分底鼓带失真；主旋律和传统乐器采样保持干净；无Reverse Bass调制"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.8,
-      "loudness_target_lufs": -7,
-      "note": "碎拍切分造成动态起伏比4/4拍更丰富；Drop段落响度拉升明显"
-    },
-    "origin_info": {
-      "origin_place": "泰国",
-      "origin_decade": "2010年代",
-      "representative_producers": [
-        "泰鼓仔",
-        "DJ锺少",
-        "DJ T-Double E (Bangkok)"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
       ],
-      "related_styles": [
-        "Thai Trap",
-        "Thai Budots（融合菲律宾Budots节奏）",
-        "Thai 3-cha EDM"
-      ],
-      "cultural_note": "泰国地方性电子舞曲风格，在东南亚DJ圈和包房场景流行；将泰国传统mor lam/luk thung音乐元素与Breakbeat碎拍、3-cha三步舞节奏融合；大量使用泰国童声和流行歌曲混音；在CPUDJ等东南亚电音平台有大量原创曲目，常见BPM为150"
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "data_quality": "detailed",
-    "style_id": 183,
-    "aliases": {
-      "cn": "泰国鼓",
-      "jp": "タイブレイクビーツ",
-      "th": "ไทยเบรกบีท"
-    }
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Thai traditional percussion over 4/4 kick",
+    "drop_feature": "Thai traditional percussion over 4/4 kick",
+    "arrangement": "2018-2026",
+    "distinguish_rule": "BPM130-140(+30), Thai percussion(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_id": 193,
@@ -6900,51 +6780,37 @@
     }
   },
   {
-    "style_id": 218,
-    "style_cn": "迷幻 Trance",
-    "style_en": "trance",
-    "bpm_min": 130,
+    "genre_id": "G009",
+    "genre_name": "Trance",
+    "genre_cn": "Uplifting Trance",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 136,
     "bpm_max": 142,
-    "beat_type": "4/4拍，四拍底鼓，持续律动，长混响",
-    "kick_feature": "紧实干净底鼓，起音中等，低频稳定；底鼓轮廓顺滑，不肥厚；与合成器分离度高",
-    "timbre_feature": "绵长氛围感Pad，缓慢演化的锯齿琶音，空灵合成器主旋律；音色空间感巨大，混响量大；高频明亮空灵",
-    "rhythm_feature": "长段落渐进式编排，极长Build-up；依靠滤波、白噪缓慢爬升；Drop冲击力温和，靠律动沉浸；律动催眠循环感极强",
-    "vocal_prop": "低",
-    "parent_category": "trance",
-    "tags": [
-      "trance",
-      "迷幻",
-      "uplifting",
-      "progressive trance",
-      "psytrance"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectrum_profile": {
-      "sub_energy": 0.2,
-      "lf_energy": 0.22,
-      "lmf_energy": 0.14,
-      "mf_energy": 0.16,
-      "hmf_energy": 0.16,
-      "hf_energy": 0.12,
-      "band_note": "HF能量高，空灵Pad和琶音；频谱平滑，瞬态峰值少；大混响造成高频延续"
+    "bpm_core": 139,
+    "rhythm_pattern": "4/4",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.48,
-      "kick_transient": 0.6,
-      "kick_transient_time_ms": 10,
-      "note": "全局瞬态偏弱，底鼓冲击柔和；大量稳态Pad带来持续频谱"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
+      ]
     },
-    "distortion_profile": {
-      "distortion_snr_db": 20,
-      "distortion_focus_band": "none",
-      "note": "整体干净，仅少量合成器轻微饱和失真"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 2.2,
-      "loudness_target_lufs": -9,
-      "note": "动态范围大，段落缓慢升降，Drop响度提升平缓"
-    }
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Long ethereal pads, euphoric pluck, long breakdown",
+    "drop_feature": "Long ethereal pads, euphoric pluck, long breakdown",
+    "arrangement": "2010-2026",
+    "distinguish_rule": "BPM136-142(+30), wide pad(+35)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
     "style_id": 219,
@@ -7503,104 +7369,69 @@
     "distinguish_rule": "BPM<133，无Slap Bass，能量平缓；介于ProgHouse和VinaHouse之间"
   },
   {
-    "style_en": "Vina_House",
-    "style_cn": "Vina House 越南鼓",
+    "genre_id": "G006",
+    "genre_name": "Vina House",
+    "genre_cn": "越南鼓",
+    "parent_category": "DJ / Electronic",
     "bpm_min": 132,
     "bpm_max": 142,
-    "beat_type": "4/4拍",
-    "kick_feature": "底鼓饱满绵长，弹性Slap Bass",
-    "timbre_feature": "东南亚五声音阶旋律，抒情线条长",
-    "rhythm_feature": "旋律主导，Build-up偏长，叙事感强",
-    "vocal_prop": 0.72,
-    "parent_category": "house",
-    "tags": [
-      "vina house",
-      "越南鼓",
-      "vinahouse",
-      "slap bass"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectral_profile": {
-      "sub_energy": 0.22,
-      "lf_energy": 0.36,
-      "lmf_energy": 0.2,
-      "mf_energy": 0.14,
-      "hmf_energy": 0.06,
-      "hf_energy": 0.02
+    "bpm_core": 137,
+    "rhythm_pattern": "4/4 continuous bass",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.7,
-      "kick_transient": 0.78,
-      "kick_transient_time_ms": 7
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 16,
-      "distortion_focus_band": "100-250Hz"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.5,
-      "loudness_target_lufs": -9.5
-    },
-    "style_id": 223,
-    "aliases": {
-      "cn": "越南鼓",
-      "keyword": [
-        "vina",
-        "越南鼓"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
       ]
     },
-    "category": "Genre",
-    "data_quality": "detailed"
+    "timbre_tag": "Balanced",
+    "vocal_feature": "Continuous linear bass, no off-beat donk, pop vocal remixes",
+    "drop_feature": "Continuous linear bass, no off-beat donk, pop vocal remixes",
+    "arrangement": "2015-2026",
+    "distinguish_rule": "BPM132-142(+30), continuous bass(+40)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   },
   {
-    "style_en": "Chinese_Bounce",
-    "style_cn": "中国Bounce混音版",
-    "bpm_min": 130,
-    "bpm_max": 145,
-    "beat_type": "4/4拍",
-    "kick_feature": "正拍厚重底鼓，强SubBass",
-    "timbre_feature": "中文流行切片，低频厚重",
-    "rhythm_feature": "底鼓为王，旋律次要",
-    "vocal_prop": 0.65,
-    "parent_category": "bounce",
-    "tags": [
-      "chinese bounce",
-      "中国bounce",
-      "中文DJ"
-    ],
-    "confidence_weight": 0.85,
-    "is_bar_common": true,
-    "spectral_profile": {
-      "sub_energy": 0.28,
-      "lf_energy": 0.4,
-      "lmf_energy": 0.15,
-      "mf_energy": 0.1,
-      "hmf_energy": 0.05,
-      "hf_energy": 0.02
+    "genre_id": "G005",
+    "genre_name": "Chinese Bounce",
+    "genre_cn": "中国Bounce",
+    "parent_category": "DJ / Electronic",
+    "bpm_min": 136,
+    "bpm_max": 144,
+    "bpm_core": 140,
+    "rhythm_pattern": "4/4 off-beat",
+    "spectral_feature": {
+      "low_freq_range": "20-100Hz",
+      "low_energy_ratio": 0.3,
+      "spectral_centroid": 2000
     },
-    "transient_profile": {
-      "global_transient": 0.82,
-      "kick_transient": 0.9,
-      "kick_transient_time_ms": 5
-    },
-    "distortion_profile": {
-      "distortion_snr_db": 14,
-      "distortion_focus_band": "60-200Hz"
-    },
-    "dynamic_profile": {
-      "peak_rms_ratio": 1.7,
-      "loudness_target_lufs": -9
-    },
-    "style_id": 220,
-    "aliases": {
-      "cn": "中国Bounce",
-      "keyword": [
-        "bounce",
-        "弹跳"
+    "loudness": {
+      "target_lufs": [
+        -8,
+        -11
+      ],
+      "dr_range": [
+        5,
+        8
       ]
     },
-    "category": "Genre",
-    "data_quality": "detailed"
+    "timbre_tag": "Balanced",
+    "vocal_feature": "140 BPM, Chinese vocal remixes, simplified donk",
+    "drop_feature": "140 BPM, Chinese vocal remixes, simplified donk",
+    "arrangement": "2018-2026",
+    "distinguish_rule": "BPM136-144(+30), off-beat bass(+35), Chinese vocal(+20)",
+    "scene": "Nightclub / Festival",
+    "confidence_threshold": 0.6,
+    "category": "Genre"
   }
 ]
